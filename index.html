@@ -1,0 +1,1295 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>LevelUp 2026 Report</title>
+<meta name="description" content="The LevelUp 2026 interactive report by Expansion Software & Services: every talk, the HighLevel updates that matter in plain English, and a 2-minute quiz that builds your personalized action plan.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@85..115,500..800&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --blue: #094AB2; --blue-ink: #094AB2; --blue-soft: #E8EFFB;
+  --gold: #BD985B; --gold-ink: #7E5F2C; --gold-soft: #F6EFE3;
+  --bg: #F4F6FB; --surface: #FFFFFF; --panel: #F3F6FC; --ink: #0F1B33; --muted: #55627B; --line: #DCE2EE; --chip: #EAF0FB; --good: #1E7A4C;
+  --hero-bg: #050506; --hero-ink: #FFFFFF; --hero-soft: #C9CDD6; --hero-blue: #4F8AF0; --hero-line: rgba(255,255,255,0.14);
+  --font-display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Public Sans", "Segoe UI", system-ui, sans-serif;
+  --radius: 14px; --shadow: 0 1px 2px rgba(15,27,51,.06), 0 8px 24px rgba(15,27,51,.06);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --blue: #1557C8; --blue-ink: #8DB3F5; --blue-soft: #16223D; --gold: #CCAA72; --gold-ink: #D9BC8A; --gold-soft: #2A2418;
+    --bg: #0B0B0D; --surface: #151518; --panel: #1A1B20; --ink: #ECEEF2; --muted: #A0A5B0; --line: #2A2B31; --chip: #1C2233; --good: #5CC791;
+    --shadow: 0 1px 2px rgba(0,0,0,.4); color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --blue: #1557C8; --blue-ink: #8DB3F5; --blue-soft: #16223D; --gold: #CCAA72; --gold-ink: #D9BC8A; --gold-soft: #2A2418;
+  --bg: #0B0B0D; --surface: #151518; --panel: #1A1B20; --ink: #ECEEF2; --muted: #A0A5B0; --line: #2A2B31; --chip: #1C2233; --good: #5CC791;
+  --shadow: 0 1px 2px rgba(0,0,0,.4); color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 88px; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 var(--font-body); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.12; margin: 0; text-wrap: balance; }
+p { margin: 0; }
+a { color: var(--blue-ink); text-underline-offset: 3px; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+.wrap { max-width: 1180px; margin: 0 auto; padding-inline: max(16px, env(safe-area-inset-left, 0px)); }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 13px 20px; border-radius: 10px; font: 700 .98rem var(--font-body); text-decoration: none; border: 2px solid transparent; cursor: pointer; text-align: center; transition: filter .15s, background .15s, transform .15s; }
+.btn:hover { transform: translateY(-1px); }
+.btn-primary { background: var(--blue); color: #fff; }
+.btn-primary:hover { filter: brightness(1.12); }
+.btn-gold { background: var(--blue); color: #fff; box-shadow: 0 6px 20px rgba(9,74,178,.35); }
+.btn-gold:hover { filter: brightness(1.15); }
+.btn-outline { background: transparent; color: var(--blue-ink); border-color: var(--blue-ink); }
+.btn-outline:hover { background: var(--blue-soft); }
+.btn-ghost { background: rgba(255,255,255,.06); color: #fff; border-color: rgba(255,255,255,.35); }
+.btn-ghost:hover { background: rgba(255,255,255,.12); }
+.btn-sm { padding: 8px 14px; font-size: .88rem; }
+
+/* Nav */
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 60; background: #05070F; }
+.nav { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 50; background: rgba(5,5,6,.86); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 1px solid var(--hero-line); }
+.nav .wrap { display: flex; align-items: center; gap: 18px; height: 76px; }
+.nav .logo { height: 40px; width: auto; max-width: 52vw; object-fit: contain; display: block; }
+.nav ul { display: flex; gap: 4px; list-style: none; margin: 0 0 0 auto; padding: 0; }
+.nav ul a { color: var(--hero-soft); text-decoration: none; font-weight: 600; font-size: .92rem; padding: 8px 12px; border-radius: 8px; }
+.nav ul a:hover { color: #fff; background: rgba(255,255,255,.07); }
+.nav ul a.founder-link { color: var(--gold); }
+@media (max-width: 760px) { .nav ul { display: none; } .nav .btn { margin-left: auto; } }
+
+/* Hero */
+.hero { background: var(--hero-bg); color: var(--hero-ink); position: relative; overflow: hidden; isolation: isolate; }
+.hero .grid-bg { position: absolute; inset: 0; z-index: -1; background-image: linear-gradient(rgba(255,255,255,.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.04) 1px, transparent 1px); background-size: 56px 56px; mask-image: radial-gradient(ellipse at 50% 30%, #000 30%, transparent 75%); -webkit-mask-image: radial-gradient(ellipse at 50% 30%, #000 30%, transparent 75%); }
+.hero .wrap { padding-block: 72px 48px; text-align: center; }
+.pill { display: inline-flex; align-items: center; gap: 8px; padding: 6px 14px; border: 1px solid rgba(79,138,240,.45); background: rgba(79,138,240,.1); border-radius: 99px; color: #BFD3FA; font-size: .78rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.pill i { width: 7px; height: 7px; border-radius: 50%; background: var(--hero-blue); box-shadow: 0 0 0 4px rgba(79,138,240,.25); animation: blink 2s infinite; }
+@keyframes blink { 50% { opacity: .35; } }
+.hero h1 { margin: 22px auto 0; font-size: clamp(2.5rem, 7vw, 4.8rem); font-weight: 800; font-stretch: 88%; letter-spacing: -.02em; max-width: 14ch; }
+.hero h1 em { font-style: normal; display: block; background: linear-gradient(90deg, var(--hero-blue), #A9C6FA 45%, var(--gold)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.hero .lede { margin: 20px auto 0; max-width: 60ch; color: var(--hero-soft); font-size: 1.13rem; }
+.hero .by { margin-top: 10px; color: var(--hero-soft); font-size: .9rem; opacity: .8; }
+.hero .actions { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-top: 30px; }
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin: 48px auto 0; max-width: 880px; }
+.stat { border: 1px solid var(--hero-line); background: rgba(255,255,255,.035); border-radius: var(--radius); padding: 18px 14px; }
+.stat strong { display: block; font: 800 2.2rem/1 var(--font-display); font-variant-numeric: tabular-nums; }
+.stat strong.g { color: var(--gold); }
+.stat span { display: block; margin-top: 6px; font-size: .84rem; color: var(--hero-soft); }
+@media (max-width: 640px) { .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.ticker { overflow: hidden; border-top: 1px solid var(--hero-line); background: #08090C; padding: 13px 0; mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); }
+.ticker-track { display: flex; gap: 36px; width: max-content; animation: scroll 80s linear infinite; }
+.ticker:hover .ticker-track { animation-play-state: paused; }
+.ticker span { color: var(--hero-soft); font-size: .9rem; white-space: nowrap; }
+.ticker span b { color: var(--gold); font-weight: 700; margin-right: 6px; }
+@keyframes scroll { to { transform: translateX(-50%); } }
+
+/* Sections */
+section.block { padding-block: 80px 20px; }
+.sec-head { display: grid; gap: 10px; margin-bottom: 28px; max-width: 70ch; }
+.sec-num { font: 800 .85rem var(--font-display); color: var(--blue-ink); letter-spacing: .14em; }
+.sec-num span { color: var(--gold-ink); }
+.sec-head h2 { font-size: clamp(1.9rem, 4.2vw, 2.8rem); font-weight: 800; font-stretch: 92%; letter-spacing: -.015em; }
+.sec-head p { color: var(--muted); font-size: 1.06rem; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+.chip { border: 1px solid var(--line); background: var(--surface); color: var(--ink); padding: 7px 14px; border-radius: 99px; font-size: .88rem; font-weight: 600; cursor: pointer; transition: background .15s, border-color .15s; }
+.chip:hover { border-color: var(--blue-ink); }
+.chip[aria-pressed="true"] { background: var(--blue); border-color: var(--blue); color: #fff; }
+.chip .n { opacity: .65; margin-left: 4px; font-variant-numeric: tabular-nums; }
+.chip.gold[aria-pressed="true"] { background: var(--gold); border-color: var(--gold); color: #1B1408; }
+
+/* Talks */
+.talks { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+.talk { text-align: left; display: flex; flex-direction: column; gap: 10px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; cursor: pointer; box-shadow: var(--shadow); transition: transform .18s, border-color .18s; }
+.talk:hover { transform: translateY(-3px); border-color: var(--blue-ink); }
+.talk .top { display: flex; align-items: center; gap: 12px; }
+.av { flex: none; width: 56px; height: 56px; border-radius: 50%; display: grid; place-items: center; font: 800 1rem var(--font-display); color: #fff; background: linear-gradient(135deg, var(--blue), #0A2E6E); }
+.av img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; object-position: 50% 15%; background: #fff; display: block; }
+.av.ph { background: var(--blue); padding: 2px; }
+.av.hl, .talk.key .av.hl { background: radial-gradient(circle at 30% 25%, #1B2A4A, #070A12 75%); box-shadow: inset 0 0 0 1.5px rgba(255,255,255,.14), 0 4px 14px rgba(9,74,178,.35); }
+.av.hl img { background: transparent; border-radius: 0; object-fit: contain; padding: 9px; }
+.talk.key .av.ph { background: var(--gold); }
+.talk.key .av { background: linear-gradient(135deg, var(--gold), #8C6A35); color: #1B1408; }
+.talk .meta { font-size: .72rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--blue-ink); }
+.talk.key .meta { color: var(--gold-ink); }
+.talk .spk { font-size: .92rem; color: var(--muted); font-weight: 600; }
+.talk h3 { font-size: 1.12rem; font-weight: 700; }
+.talk .why { color: var(--muted); font-size: .92rem; flex: 1; }
+.talk .go { font-weight: 700; font-size: .9rem; color: var(--blue-ink); }
+
+/* Industries */
+.ind { display: grid; grid-template-columns: 290px 1fr; gap: 18px; align-items: start; }
+.ind-tabs { display: grid; gap: 8px; }
+.ind-tab { display: flex; align-items: center; gap: 12px; text-align: left; padding: 14px 16px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); cursor: pointer; font-weight: 700; }
+.ind-tab .ic { font-size: 1.3rem; }
+.ind-tab[aria-selected="true"] { background: var(--hero-bg); color: #fff; border-color: var(--hero-bg); }
+:root[data-theme="dark"] .ind-tab[aria-selected="true"] { background: var(--blue); border-color: var(--blue); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .ind-tab[aria-selected="true"] { background: var(--blue); border-color: var(--blue); } }
+.ind-panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; box-shadow: var(--shadow); }
+.ind-panel h3 { font-size: 1.5rem; display: flex; gap: 10px; align-items: center; }
+.ind-panel > p { color: var(--muted); margin-top: 8px; }
+.ind-list { display: grid; gap: 12px; margin-top: 20px; }
+.mini { border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; background: var(--panel); }
+.mini h4 { font-size: 1rem; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.mini p { font-size: .93rem; color: var(--muted); margin-top: 4px; }
+.mini .money { color: var(--ink); margin-top: 8px; }
+.mini .money::before { content: "💰 "; }
+@media (max-width: 820px) { .ind { grid-template-columns: 1fr; } .ind-tabs { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); } }
+
+.tag { display: inline-block; font: 800 .66rem var(--font-body); letter-spacing: .08em; text-transform: uppercase; padding: 3px 8px; border-radius: 6px; background: var(--chip); color: var(--blue-ink); vertical-align: middle; }
+.tag.f { background: var(--gold-soft); color: var(--gold-ink); }
+.tag.l { background: transparent; border: 1px solid var(--line); color: var(--muted); }
+.tag.p1 { background: var(--blue); color: #fff; }
+
+/* CTA band */
+.cta { margin-top: 80px; background: var(--hero-bg); color: #fff; border-radius: 20px; padding: 40px 32px; display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: space-between; position: relative; overflow: hidden; }
+.cta h3 { font-size: clamp(1.4rem, 3vw, 1.9rem); max-width: 26ch; }
+.cta p { color: var(--hero-soft); margin-top: 6px; }
+.cta > * { position: relative; z-index: 1; }
+
+/* Updates */
+.tools { display: grid; gap: 12px; margin-bottom: 10px; }
+.searchbox { position: relative; }
+.searchbox input { width: 100%; padding: 14px 16px 14px 44px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--ink); font: 500 1rem var(--font-body); }
+.searchbox input:focus { outline: 3px solid var(--blue-soft); border-color: var(--blue-ink); }
+.searchbox::before { content: "⌕"; position: absolute; left: 16px; top: 50%; transform: translateY(-52%); font-size: 1.3rem; color: var(--muted); }
+.count { color: var(--muted); font-size: .92rem; margin: 6px 0 14px; font-variant-numeric: tabular-nums; }
+.ups { display: grid; gap: 10px; }
+.up { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--shadow); }
+.up summary { list-style: none; cursor: pointer; padding: 16px 18px; display: grid; grid-template-columns: auto 1fr auto; gap: 14px; align-items: center; }
+.up summary::-webkit-details-marker { display: none; }
+.up .ic { font-size: 1.35rem; width: 42px; height: 42px; border-radius: 10px; background: var(--panel); display: grid; place-items: center; }
+.up .cat { font-size: .7rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.up h3 { font-size: 1.05rem; font-weight: 700; margin-top: 2px; display: flex; flex-wrap: wrap; gap: 6px 8px; align-items: center; }
+.up .one { color: var(--muted); font-size: .93rem; margin-top: 3px; }
+.up .chev { transition: transform .2s; color: var(--muted); font-size: 1.2rem; }
+.up[open] .chev { transform: rotate(180deg); }
+.up .body { padding: 0 18px 18px 74px; display: grid; gap: 12px; }
+.up .body h4 { font: 800 .72rem var(--font-body); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-bottom: 2px; }
+.up .moneybox { background: var(--gold-soft); border-left: 3px solid var(--gold); padding: 10px 14px; border-radius: 0 8px 8px 0; }
+.up .path { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .85rem; background: var(--panel); padding: 8px 10px; border-radius: 8px; display: inline-block; }
+.up ol { margin: 0; padding-left: 20px; }
+.up .links { display: flex; flex-wrap: wrap; gap: 8px; }
+@media (max-width: 600px) { .up .body { padding-left: 18px; } .up summary { grid-template-columns: 1fr auto; } .up .ic { display: none; } }
+.more-btn { margin: 18px auto 0; display: flex; }
+
+/* Quiz */
+.quiz { background: var(--surface); border: 1px solid var(--line); border-radius: 20px; box-shadow: var(--shadow); padding: clamp(20px, 4vw, 40px); max-width: 780px; }
+.qbar { display: flex; align-items: center; gap: 14px; font-size: .88rem; color: var(--muted); font-weight: 700; font-variant-numeric: tabular-nums; }
+.qtrack { flex: 1; height: 6px; background: var(--chip); border-radius: 99px; overflow: hidden; }
+.qtrack i { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--blue), var(--hero-blue)); transition: width .35s; }
+.quiz h3 { font-size: clamp(1.35rem, 3vw, 1.75rem); margin: 22px 0 6px; }
+.quiz .hint { color: var(--muted); margin-bottom: 18px; }
+.opts { display: grid; gap: 10px; }
+.opt { text-align: left; padding: 14px 16px; border: 1.5px solid var(--line); border-radius: 12px; background: var(--panel); cursor: pointer; font-weight: 600; display: flex; gap: 12px; align-items: center; transition: border-color .15s, background .15s; }
+.opt:hover { border-color: var(--blue-ink); }
+.opt[aria-pressed="true"] { border-color: var(--blue); background: var(--blue-soft); }
+.opt .e { font-size: 1.25rem; }
+.opt small { display: block; font-weight: 400; color: var(--muted); font-size: .85rem; }
+.qnav { display: flex; justify-content: space-between; align-items: center; margin-top: 22px; gap: 10px; }
+.linkbtn { background: none; border: 0; color: var(--muted); cursor: pointer; font-weight: 600; padding: 8px 4px; }
+.linkbtn:disabled { visibility: hidden; }
+.field { display: grid; gap: 6px; margin-bottom: 14px; }
+.field label { font-weight: 700; font-size: .92rem; }
+.field input { padding: 13px 14px; border: 1.5px solid var(--line); border-radius: 10px; background: var(--panel); color: var(--ink); font: 500 1rem var(--font-body); }
+.fine { font-size: .84rem; color: var(--muted); }
+
+/* Report */
+.report { margin-top: 28px; }
+.rep-head { background: var(--hero-bg); color: #fff; border-radius: 20px; padding: clamp(22px, 4vw, 40px); position: relative; overflow: hidden; }
+.rep-head .logo { height: 24px; }
+.rep-head h3 { font-size: clamp(1.6rem, 4vw, 2.4rem); margin-top: 18px; position: relative; z-index: 1; }
+.rep-head p { color: var(--hero-soft); margin-top: 8px; max-width: 64ch; position: relative; z-index: 1; }
+.rep-stats { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; position: relative; z-index: 1; }
+.rep-stats div { border: 1px solid var(--hero-line); border-radius: 12px; padding: 10px 16px; background: rgba(255,255,255,.04); }
+.rep-stats strong { font: 800 1.5rem var(--font-display); display: block; }
+.rep-stats span { font-size: .82rem; color: var(--hero-soft); }
+.rep-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; position: relative; z-index: 1; }
+.rep-sec { margin-top: 30px; }
+.rep-sec > h3 { font-size: 1.4rem; margin-bottom: 4px; }
+.rep-sec > p { color: var(--muted); margin-bottom: 14px; }
+.week { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+.wk { background: var(--surface); border: 1px solid var(--line); border-top: 4px solid var(--blue); border-radius: 14px; padding: 18px; box-shadow: var(--shadow); }
+.wk .n { font: 800 .75rem var(--font-body); color: var(--blue-ink); letter-spacing: .1em; text-transform: uppercase; }
+.wk h4 { font-size: 1.1rem; margin: 6px 0; }
+.wk p { color: var(--muted); font-size: .93rem; }
+.wk ol { margin: 10px 0 0; padding-left: 18px; font-size: .92rem; }
+.match { font-size: .78rem; font-weight: 800; color: var(--good); }
+.founder-note { margin-top: 30px; border: 1px solid var(--gold); background: var(--gold-soft); border-radius: 16px; padding: 20px 22px; display: flex; flex-wrap: wrap; gap: 14px; align-items: center; justify-content: space-between; }
+.founder-note h4 { font-size: 1.15rem; }
+.founder-note p { color: var(--muted); margin-top: 4px; max-width: 60ch; }
+
+/* Founder */
+.founder { background: var(--hero-bg); color: #fff; border-radius: 22px; padding: clamp(24px, 5vw, 48px); position: relative; overflow: hidden; }
+.founder > * { position: relative; }
+.founder .sec-num { color: var(--gold); }
+.founder h2 { font-size: clamp(1.8rem, 4vw, 2.6rem); margin-top: 8px; max-width: 22ch; }
+.price { font: 800 3rem var(--font-display); color: var(--gold); margin-top: 14px; }
+.price small { font-size: 1rem; color: var(--hero-soft); font-weight: 600; }
+.founder > p { color: var(--hero-soft); max-width: 66ch; margin-top: 8px; }
+.feat { list-style: none; padding: 0; margin: 24px 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+.feat li { border: 1px solid var(--hero-line); border-radius: 12px; padding: 14px 16px; background: rgba(255,255,255,.035); }
+.feat strong { display: block; }
+.feat span { color: var(--hero-soft); font-size: .92rem; }
+.founder .actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.founder .fine { color: var(--hero-soft); margin-top: 14px; }
+
+/* FAQ */
+.faq details { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; margin-bottom: 10px; }
+.faq summary { cursor: pointer; padding: 16px 18px; font-weight: 700; }
+.faq details p { padding: 0 18px 16px; color: var(--muted); }
+
+footer { margin-top: 80px; border-top: 1px solid var(--line); padding-block: 36px calc(36px + env(safe-area-inset-bottom, 0px)); color: var(--muted); font-size: .9rem; }
+footer .wrap { display: grid; gap: 10px; }
+footer .brand { display: inline-block; width: max-content; max-width: 100%; }
+footer .brand img { height: 44px; width: auto; max-width: 100%; display: block; }
+footer .brand .on-dark { display: none; }
+:root[data-theme="dark"] footer .brand .on-light { display: none; }
+:root[data-theme="dark"] footer .brand .on-dark { display: block; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) footer .brand .on-light { display: none; } :root:not([data-theme="light"]) footer .brand .on-dark { display: block; } }
+
+/* Dialog */
+dialog { border: 0; padding: 0; border-radius: 18px; width: min(680px, calc(100vw - 32px)); max-height: calc(100dvh - 48px); background: var(--surface); color: var(--ink); box-shadow: 0 30px 80px rgba(0,0,0,.4); }
+dialog::backdrop { background: rgba(5,5,6,.65); backdrop-filter: blur(3px); }
+.dlg-head { background: var(--hero-bg); color: #fff; padding: 26px 26px 22px; position: relative; }
+.dlg-head .top { display: flex; gap: 14px; align-items: center; }
+.dlg-head .meta { font-size: .74rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--gold); }
+.dlg-head h3 { font-size: 1.5rem; margin-top: 14px; padding-right: 30px; }
+.dlg-head .spk { color: var(--hero-soft); font-weight: 600; }
+.dlg-x { position: absolute; top: 14px; right: 14px; width: 36px; height: 36px; border-radius: 50%; border: 0; background: rgba(255,255,255,.1); color: #fff; font-size: 1.3rem; cursor: pointer; }
+.dlg-body { padding: 22px 26px 26px; display: grid; gap: 18px; }
+.dlg-body h4 { font: 800 .74rem var(--font-body); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+.dlg-body ul { margin: 0; padding-left: 20px; }
+.dlg-body .mini h4 { font: 700 1rem/1.25 var(--font-display); letter-spacing: 0; text-transform: none; color: var(--ink); margin: 0; }
+.action-box { background: var(--blue-soft); border-radius: 12px; padding: 14px 16px; }
+
+
+/* ---------- Dark-area effects ---------- */
+.dark-fx { position: relative; isolation: isolate; overflow: hidden;
+  background:
+    radial-gradient(110% 80% at 0% 0%, rgba(13,58,140,.85) 0%, transparent 55%),
+    radial-gradient(80% 70% at 100% 100%, rgba(110,80,30,.55) 0%, transparent 60%),
+    radial-gradient(60% 50% at 100% 0%, rgba(40,150,251,.18) 0%, transparent 60%),
+    linear-gradient(160deg, #040714 0%, #06060A 48%, #0B0E1C 100%); }
+.dark-fx::before { content: ""; position: absolute; inset: -35%; z-index: -1; pointer-events: none;
+  background:
+    radial-gradient(closest-side, rgba(79,138,240,.55), transparent) 18% 28% / 42% 42% no-repeat,
+    radial-gradient(closest-side, rgba(204,170,114,.42), transparent) 82% 62% / 38% 38% no-repeat,
+    radial-gradient(closest-side, rgba(21,87,200,.5), transparent) 55% 92% / 48% 36% no-repeat,
+    radial-gradient(closest-side, rgba(140,90,255,.22), transparent) 70% 12% / 30% 30% no-repeat;
+  filter: blur(36px); animation: fx-drift 22s ease-in-out infinite alternate; }
+.dark-fx::after { content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none; opacity: .5; mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.55'/%3E%3C/svg%3E"); }
+@keyframes fx-drift { 0% { transform: translate3d(0,0,0) rotate(0deg) scale(1); } 50% { transform: translate3d(5%,-4%,0) rotate(10deg) scale(1.08); } 100% { transform: translate3d(-4%,5%,0) rotate(-8deg) scale(.96); } }
+.dark-fx > * { position: relative; z-index: 1; }
+.dark-fx > .dlg-x { position: absolute; z-index: 2; }
+/* Glowing top edge on dark cards */
+.cta.dark-fx, .founder.dark-fx, .rep-head.dark-fx { box-shadow: inset 0 1px 0 rgba(255,255,255,.12), 0 20px 50px -20px rgba(9,74,178,.55); }
+.cta.dark-fx::after, .founder.dark-fx::after, .rep-head.dark-fx::after { border-radius: inherit; }
+/* Hero extras: rotating light beam, stars, horizon glow */
+.hero .beam { position: absolute; left: 50%; top: -40%; width: 140%; aspect-ratio: 1; transform: translateX(-50%); z-index: 0; pointer-events: none;
+  background: conic-gradient(from 0deg, transparent 0 20%, rgba(79,138,240,.16) 25%, transparent 32%, transparent 55%, rgba(204,170,114,.12) 60%, transparent 67%);
+  mask-image: radial-gradient(circle, #000 20%, transparent 62%); -webkit-mask-image: radial-gradient(circle, #000 20%, transparent 62%);
+  animation: fx-spin 40s linear infinite; }
+@keyframes fx-spin { to { transform: translateX(-50%) rotate(360deg); } }
+.hero .stars { position: absolute; inset: 0; z-index: 0; pointer-events: none;
+  background-image:
+    radial-gradient(1.5px 1.5px at 12% 22%, #fff, transparent), radial-gradient(1px 1px at 28% 68%, #cfe0ff, transparent),
+    radial-gradient(1.5px 1.5px at 44% 14%, #fff, transparent), radial-gradient(1px 1px at 63% 78%, #ffe9c2, transparent),
+    radial-gradient(1.5px 1.5px at 78% 30%, #fff, transparent), radial-gradient(1px 1px at 90% 58%, #cfe0ff, transparent),
+    radial-gradient(1px 1px at 6% 84%, #fff, transparent), radial-gradient(1.5px 1.5px at 52% 46%, #ffe9c2, transparent),
+    radial-gradient(1px 1px at 36% 38%, #fff, transparent), radial-gradient(1px 1px at 84% 88%, #fff, transparent);
+  animation: fx-twinkle 5s ease-in-out infinite alternate; opacity: .75; }
+@keyframes fx-twinkle { from { opacity: .35; } to { opacity: .9; } }
+.hero .horizon { position: absolute; left: -10%; right: -10%; bottom: -1px; height: 220px; z-index: 0; pointer-events: none;
+  background: radial-gradient(60% 100% at 50% 100%, rgba(79,138,240,.38), transparent 70%); }
+.hero .horizon::after { content: ""; position: absolute; left: 15%; right: 15%; bottom: 0; height: 1px; background: linear-gradient(90deg, transparent, rgba(143,184,255,.9), rgba(204,170,114,.8), transparent); }
+.hero .grid-bg { z-index: 0; }
+.hero .wrap { position: relative; z-index: 1; }
+/* Nav and ticker */
+.nav { background: linear-gradient(90deg, rgba(6,14,34,.88), rgba(5,5,6,.86) 50%, rgba(22,17,8,.85)); border-bottom: 0; }
+.nav::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 1px; background: linear-gradient(90deg, transparent, rgba(79,138,240,.7), rgba(204,170,114,.6), transparent); }
+.ticker { position: relative; z-index: 1; background: linear-gradient(90deg, rgba(9,74,178,.35), rgba(5,5,10,.6) 35%, rgba(5,5,10,.6) 65%, rgba(189,152,91,.25)); border-top: 1px solid rgba(143,184,255,.18); }
+/* Gradient headline accents inside dark cards */
+.founder.dark-fx h2, .cta.dark-fx h3 { background: linear-gradient(90deg, #fff 40%, #BFD3FA 75%, #E6CFA3); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.dlg-head.dark-fx { background-color: #050506; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+  .dark-fx::before, .hero .beam, .hero .stars { animation: none !important; }
+  .ticker-track { flex-wrap: wrap; width: auto; padding-inline: 16px; gap: 6px 24px; } .ticker .dup { display: none; }
+}
+@media print {
+  body { background: #fff; color: #000; }
+  body > *:not(main), main > *:not(#quiz), #quiz .sec-head, #quiz .quiz, .rep-actions, .no-print { display: none !important; }
+  .report { margin: 0; } .wk, .mini { box-shadow: none; break-inside: avoid; }
+  .rep-head { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
+</style>
+
+<nav class="nav" aria-label="Main">
+  <div class="wrap">
+    <a href="#top" aria-label="Expansion Software & Services home"><img class="logo" src="data:image/png;base64,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" alt="Expansion"></a>
+    <ul>
+      <li><a href="#talks">Talks</a></li>
+      <li><a href="#industries">Industries</a></li>
+      <li><a href="#updates">Updates</a></li>
+      <li><a href="#founder" class="founder-link">👑 Founder Plan</a></li>
+    </ul>
+    <a class="btn btn-primary btn-sm" href="#quiz" id="nav-report">My report</a>
+  </div>
+</nav>
+
+<header class="hero dark-fx" id="top">
+  <div class="beam" aria-hidden="true"></div>
+  <div class="stars" aria-hidden="true"></div>
+  <div class="grid-bg" aria-hidden="true"></div>
+  <div class="horizon" aria-hidden="true"></div>
+  <div class="wrap">
+    <span class="pill"><i></i>HighLevel LevelUp 2026 · Dallas · Oct 27–29</span>
+    <h1>The LevelUp 2026 <em>Interactive Report</em></h1>
+    <p class="lede">Every talk on one page. The <span class="js-total">51</span> HighLevel updates that matter most, in plain English, with how each one makes or saves you money. Then a 2-minute quiz builds your personalized action plan.</p>
+    <p class="by">by Expansion Software &amp; Services</p>
+    <div class="actions">
+      <a class="btn btn-gold" href="#quiz">Build my free report →</a>
+      <a class="btn btn-ghost" href="#updates">Explore the updates</a>
+    </div>
+    <div class="stats" id="stats"></div>
+  </div>
+  <div class="ticker" aria-label="Featured updates"><div class="ticker-track" id="ticker"></div></div>
+</header>
+
+<main>
+  <section class="block wrap" id="talks">
+    <div class="sec-head">
+      <div class="sec-num">01 <span>·</span> THE TALKS</div>
+      <h2>Every session, and what it means for you</h2>
+      <p>Tap any session to see why it matters and the HighLevel updates you can act on this week.</p>
+    </div>
+    <div class="chips" id="talk-filters" role="group" aria-label="Filter talks"></div>
+    <div class="talks" id="talk-grid"></div>
+  </section>
+
+  <section class="block wrap" id="industries">
+    <div class="sec-head">
+      <div class="sec-num">02 <span>·</span> BUILT FOR YOUR BUSINESS</div>
+      <h2>The updates that fit how you work</h2>
+      <p>LevelUp's biggest stories weren't single features. They were whole setups for a type of business. Pick yours.</p>
+    </div>
+    <div class="ind">
+      <div class="ind-tabs" id="ind-tabs" role="tablist" aria-label="Business types"></div>
+      <div class="ind-panel" id="ind-panel" role="tabpanel"></div>
+    </div>
+    <div class="cta dark-fx">
+      <div>
+        <h3><span class="js-total">51</span> updates? We'll tell you which ones matter for YOUR business.</h3>
+        <p>8 questions · 2 minutes · a personalized action plan you can copy and keep.</p>
+      </div>
+      <a class="btn btn-gold" href="#quiz">Build my free report →</a>
+    </div>
+  </section>
+
+  <section class="block wrap" id="updates">
+    <div class="sec-head">
+      <div class="sec-num">03 <span>·</span> EVERY UPDATE, EXPLAINED</div>
+      <h2>What it is, why it matters, and where to turn it on</h2>
+      <p>Plain English, the money angle, setup steps and a link to HighLevel's official notes.</p>
+    </div>
+    <div class="tools">
+      <div class="searchbox"><input type="search" id="up-search" placeholder="Search updates (try: booking, reviews, courses, email)" aria-label="Search updates"></div>
+      <div class="chips" id="cat-chips" role="group" aria-label="Category" style="margin:0"></div>
+      <div class="chips" id="flag-chips" role="group" aria-label="Flags" style="margin:0"></div>
+    </div>
+    <div class="count" id="up-count" aria-live="polite"></div>
+    <div class="ups" id="up-list"></div>
+    <button type="button" class="btn btn-outline more-btn" id="up-more" hidden></button>
+  </section>
+
+  <section class="block wrap" id="quiz">
+    <div class="sec-head">
+      <div class="sec-num">04 <span>·</span> FREE · 2 MINUTES</div>
+      <h2>Which of these updates matter to <span style="color:var(--blue-ink)">you</span>?</h2>
+      <p>Answer 8 quick questions. We score every update against your business type, goals, plan and how hands-on you want to be, then build your action plan.</p>
+    </div>
+    <div class="quiz" id="quiz-box"></div>
+    <div class="report" id="report" hidden></div>
+  </section>
+
+  <section class="block wrap" id="founder">
+    <div class="founder dark-fx">
+      <div class="sec-num">05 · THE FOUNDER PLAN</div>
+      <h2>HighLevel's new top plan, and what it adds</h2>
+      <div class="price">$497<small>/month</small></div>
+      <p>HighLevel introduced the Founder plan at LevelUp 2026. According to HighLevel, it builds on the Unlimited plan and adds the features below. HighLevel also says accounts already on the $497 tier move to the Founder plan over the coming weeks.</p>
+      <ul class="feat">
+        <li><strong>SaaS plans</strong><span>Package HighLevel under your brand and sell it to your own clients.</span></li>
+        <li><strong>Rebilling</strong><span>Pass usage costs, like messaging and AI, on to clients.</span></li>
+        <li><strong>HighLevel Industries</strong><span>Industry setups, starting with field services, restaurants and business coaching.</span></li>
+        <li><strong>Workflow Maps</strong><span>Every automation on one screen, with errors flagged.</span></li>
+        <li><strong>Custom navigation</strong><span>Rename, reorder and hide menu items, and reuse layouts across accounts.</span></li>
+        <li><strong>Partner perks</strong><span>Extra benefits HighLevel reserves for Founder plan members.</span></li>
+      </ul>
+      <div class="actions">
+        <a class="btn btn-gold" href="https://www.gohighlevel.com/?fp_ref=expansion30" target="_blank" rel="noopener">Upgrade through Expansion</a>
+        <a class="btn btn-ghost" href="https://help.gohighlevel.com/support/solutions/articles/48001180534-introducing-the-highlevel-founder-plan" target="_blank" rel="noopener">Read HighLevel's plan details</a>
+      </div>
+      <p class="fine">Check HighLevel's own page for current pricing and features before you decide.</p>
+    </div>
+  </section>
+
+  <section class="block wrap faq" aria-labelledby="faq-title">
+    <div class="sec-head"><div class="sec-num">FAQ</div><h2 id="faq-title">LevelUp 2026 questions, answered</h2></div>
+    <details><summary>What did HighLevel announce at LevelUp 2026?</summary><p>HighLevel's LevelUp Day 2026 release post lists around 195 updates, from AI agents and voice AI to client portals, email, workflows and the new Founder plan. This report covers the 51 most useful for service businesses, coaches and consultants.</p></details>
+    <details><summary>Which updates should I set up first?</summary><p>Take the 2-minute quiz for a plan built around your business. If you just want the short list: outbound AI agents, AI campaigns to win back old leads, Meeting Room, Reviews AI and Workflow Maps.</p></details>
+    <details><summary>What is the HighLevel Founder plan?</summary><p>A new $497-a-month plan introduced at LevelUp 2026. HighLevel says it builds on the Unlimited plan and adds SaaS plans, rebilling, HighLevel Industries, Workflow Maps, custom navigation and partner perks.</p></details>
+    <details><summary>Why can't I find a feature in my account?</summary><p>Some updates are in beta or private beta, and others have to be turned on in Labs first. Their cards say so. HighLevel can also roll features out to accounts at different times.</p></details>
+    <details><summary>Is my quiz data sent anywhere?</summary><p>No. Your answers stay in your browser so your report is still here when you come back. Nothing is emailed or stored by Expansion.</p></details>
+    <details><summary>Where can I read HighLevel's official details?</summary><p>Every update links to HighLevel's own help article, changelog entry or video. The full list is in HighLevel's <a href="https://www.gohighlevel.com/post/levelup-day-2026-the-next-evolution-of-highlevel-features-and-enhancements" target="_blank" rel="noopener">LevelUp Day 2026 release post</a>.</p></details>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Expansion Software &amp; Services"><img class="on-light" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAo4AAAB/CAYAAABhX0N1AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFGmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDggNzkuMTY0MDM2LCAyMDE5LzA4LzEzLTAxOjA2OjU3ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjEuMCAoTWFjaW50b3NoKSIgeG1wOkNyZWF0ZURhdGU9IjIwMjUtMTEtMTFUMTE6Mzc6MDUtMDU6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDI1LTExLTExVDEzOjU1OjE5LTA1OjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDI1LTExLTExVDEzOjU1OjE5LTA1OjAwIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyIgcGhvdG9zaG9wOkNvbG9yTW9kZT0iMyIgcGhvdG9zaG9wOklDQ1Byb2ZpbGU9InNSR0IgSUVDNjE5NjYtMi4xIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjM0NTA3OGNhLWVkNWIt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" alt="Expansion Software &amp; Services"><img class="on-dark" src="data:image/png;base64,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" alt=""></a>
+    <p><strong>Built by Expansion Software &amp; Services.</strong> Rankings and commentary are Expansion's opinion, not HighLevel's. Speaker names and session titles are listed for reference; Expansion is not affiliated with the speakers.</p>
+    <p>Source: HighLevel's <a href="https://www.gohighlevel.com/post/levelup-day-2026-the-next-evolution-of-highlevel-features-and-enhancements" target="_blank" rel="noopener">LevelUp Day 2026 release post</a> and its linked help articles. Some features are in beta or need Labs, and HighLevel can roll features out at different times. Expansion Software &amp; Services may earn a commission if you sign up through the links on this page.</p>
+  </div>
+</footer>
+
+<dialog id="talk-dlg" aria-labelledby="dlg-title"></dialog>
+
+<script>
+(function () {
+  var HL = 'https://help.gohighlevel.com/support/solutions/articles/';
+  var CATS = [
+    ['ai', 'AI Agents & Conversation AI', 'Agents that answer, follow up and book for you, so fewer leads slip through.'],
+    ['voice', 'Voice AI', 'AI that picks up the phone, including WhatsApp calls.'],
+    ['askai', 'Ask AI', 'HighLevel’s built-in assistant: documents, client projects and quick tasks by voice or text.'],
+    ['meet', 'Calendars & Meetings', 'Video calls, bookings and appointment details in one place.'],
+    ['portal', 'Client Portal, Courses & Communities', 'Where your clients log in to learn, book and buy.'],
+    ['marketing', 'Email, Social & Ads', 'Email, social posts and ads that bring people in.'],
+    ['reputation', 'Reputation', 'Reviews, and how your business looks to new clients.'],
+    ['sites', 'Websites, Funnels & Forms', 'Pages, chat and forms that turn visitors into leads.'],
+    ['workflows', 'Workflows & CRM', 'The automations and inbox tools behind everything else.']
+  ];
+  var PRI = { 1: 'Do first', 2: 'High value', 3: 'Worth a look' };
+  var PRI_DESC = { 1: 'Set these up first.', 2: 'Strong wins for most businesses.', 3: 'Useful if it fits how you work.' };
+  var SEE_ARTICLE = 'HighLevel’s notes don’t say where this lives. Open the help article for setup steps.';
+  var AUD = {
+    'meeting-room': ['coach', 'service'], 'breakouts': ['coach', 'creator'], 'appt-status': ['service'], 'appt-products': ['service'],
+    'qr-booking': ['service', 'coach'], 'ask-docs': ['coach', 'service'], 'ask-projects': ['coach'],
+    'portal-ai': ['coach', 'creator'], 'portal-booking': ['coach', 'service'], 'portal-discover': ['creator', 'coach'],
+    'course-ai': ['creator', 'coach'], 'course-analytics': ['creator'], 'community-plans': ['creator', 'coach'],
+    'community-premium': ['creator'], 'community-welcome': ['creator', 'coach'], 'coaching-industry': ['coach'],
+    'auto-tax': ['service', 'creator'], 'order-forms': ['coach', 'creator', 'service']
+  };
+  var FOUNDER = { 'workflow-maps': true, 'coaching-industry': true };
+
+  var U = [
+    // AI Agents & Conversation AI
+    { id: 'outbound', cat: 'ai', pri: 1, status: 'Labs', title: 'Outbound AI agents',
+      top: 'Every new lead gets a reply in minutes, even at night.',
+      what: 'Your Conversation AI agent can now start the conversation itself when something happens in your CRM, such as a form being submitted, a missed call or a deal changing stage, and schedule its own follow-ups.',
+      why: 'Speed matters most in the first few minutes after someone reaches out. Now the first reply doesn’t wait for you to be free.',
+      money: 'Fewer leads go cold between the enquiry and your first reply, so more of them become booked calls.',
+      who: 'Service businesses and consultants whose leads come from forms, ads or phone calls.',
+      path: 'Settings › Labs › Conversations AI – Outbound',
+      steps: ['Turn on “Conversations AI – Outbound” in Labs.', 'Go to AI Agents › Conversation AI and open your agent.', 'In the Deploy tab, choose the CRM events that should start a conversation.', 'Use “Test your agent” to try the outbound message before going live.'],
+      links: [['Help article', 'https://help.gohighlevel.com/a/solutions/articles/155000009456']] },
+    { id: 'reactivation', cat: 'ai', pri: 1, status: 'Labs', title: 'AI campaigns to reactivate old leads',
+      top: 'Turn your old contact list into new bookings without ad spend.',
+      what: 'Send a bulk AI outreach campaign to old leads, past customers or stalled deals. When someone replies, the conversation is handed to a live person.',
+      why: 'Most businesses have a list of people who already know them but haven’t heard from them in months.',
+      money: 'Past clients and old leads are usually the cheapest work to win back, because you’re not paying for ads to reach them.',
+      who: 'Any business with a contact list older than a few months.',
+      path: 'Contacts › AI Campaign',
+      steps: ['Turn on AI Campaigns in Labs. HighLevel notes it also needs an Auto-Pilot Conversation AI agent.', 'Go to Contacts › AI Campaign, or select contacts and choose “Start AI campaign” from the bulk actions.', 'Watch for replies, which are handed to a live agent.'],
+      links: [['Help article', HL + '155000009401']] },
+    { id: 'build-with-ai', cat: 'ai', pri: 2, status: 'Labs', title: 'Build an AI agent by describing it',
+      what: 'Describe the agent you want in plain words, or start from one of nine templates, then refine it by chatting.',
+      why: 'Your first AI agent no longer needs prompt-writing skills.',
+      money: 'Puts an always-on receptionist within reach in an afternoon, instead of a project you keep putting off.',
+      who: 'Owners who’ve held off on AI because setup looked technical.',
+      path: 'AI Agents › Conversation AI › Create Agent',
+      steps: ['Go to Settings › Labs and turn on “Conversation AI: Build with AI”.', 'Go to AI Agents › Conversation AI › Create Agent.', 'Describe what the agent should do, or pick a template.', 'Refine it in the chat, then test it.'],
+      links: [['Help article', HL + '155000009424']] },
+    { id: 'flow-builder', cat: 'ai', pri: 2, title: 'Flow-based chatbot builder',
+      what: 'A visual canvas for chatbots with branches, waits and handoffs between agents. AI can draft the flow from a description.',
+      why: 'You can see exactly what your bot does at each step, instead of hoping a long prompt covers every case.',
+      money: 'Send ready-to-buy visitors straight to booking and everyone else to answers, so your calendar fills with qualified calls.',
+      who: 'Businesses with more than one kind of enquiry, such as new clients, existing clients and support.',
+      path: 'AI Agents › Conversation AI › create a bot › Flow Based Builder',
+      steps: ['Go to AI Agents › Conversation AI and create a bot.', 'Choose Flow Based Builder.', 'Describe the flow to have AI draft it, or build it on the canvas.'],
+      links: [['Help article', 'https://help.gohighlevel.com/en/support/solutions/articles/155000009473']] },
+    { id: 'agent-health', cat: 'ai', pri: 2, title: 'Agent health checks and self healing',
+      what: 'An Agent Health dashboard reviews your Voice AI and Conversation AI agents’ real calls and chats on a schedule. Self Healing suggests and tests an improved prompt for you to approve.',
+      why: 'An AI agent can start giving poor answers without anyone noticing. This tells you when it does.',
+      money: 'Fewer leads lost to an agent that quietly mishandles calls or chats.',
+      who: 'Anyone already running an AI agent.',
+      steps: [SEE_ARTICLE],
+      links: [['Help article', HL + '155000009247']] },
+    { id: 'time-aware', cat: 'ai', pri: 2, status: 'Labs', title: 'AI that gets dates, times and time zones right',
+      what: 'Conversation AI now reads “today” and “tomorrow” from when the message was sent, handles daylight saving, avoids double-booking and respects your business hours. Auto-Pilot agents can also confirm a contact’s time zone and book in it.',
+      why: 'Booking on the wrong day or hour is one of the most common ways AI scheduling goes wrong.',
+      money: 'Fewer no-shows and awkward reschedules from appointments booked at the wrong time.',
+      who: 'Anyone letting AI book appointments, especially with clients in other time zones.',
+      path: 'Settings › Labs › Conversations AI | Advanced Time Zone Support',
+      steps: ['For time zone handling, turn on “Conversations AI | Advanced Time Zone Support” in Labs.', 'In your agent, open Actions › Contact Info to save the contact’s time zone.'],
+      links: [['Date and time awareness', HL + '155000005500'], ['Time zone support', HL + '155000009331']] },
+    { id: 'rich-elements', cat: 'ai', pri: 3, status: 'Labs', title: 'Buttons, lists and images in AI replies',
+      what: 'AI agents can reply with quick-reply buttons, lists, link buttons, images and files on supported channels.',
+      why: 'Tapping “Book a call” is easier than typing an answer.',
+      money: 'Fewer steps between a question and a booking.',
+      who: 'Businesses using AI chat on their website or messaging channels.',
+      path: 'Settings › Labs › Conversations AI Rich Elements',
+      steps: ['Turn on “Conversations AI Rich Elements” in Labs.', 'Open a prompt-based agent and go to Response Behavior › Rich Elements Support.'],
+      links: [['Help article', HL + '155000009333']] },
+    { id: 'agent-waits', cat: 'ai', pri: 3, title: 'Managed agents that wait and follow up',
+      what: 'Managed agents can pause for minutes, hours or days and pick up where they left off. Follow-ups move when an appointment moves, and cancel if it’s deleted.',
+      why: 'Reminder sequences that follow the real appointment instead of a fixed schedule.',
+      money: 'Timely reminders and nudges help cut no-shows.',
+      who: 'Businesses using Managed Agents for multi-step follow-up.',
+      path: 'AI Agents › Agent Studio › Managed Agents',
+      steps: ['Go to AI Agents › Agent Studio and open or create a Managed Agent.', 'See the help article for adding waits and follow-ups.'],
+      links: [['Help article', HL + '155000009229']] },
+
+    // Voice AI
+    { id: 'voice-whatsapp', cat: 'voice', pri: 2, title: 'Voice AI answers WhatsApp calls',
+      what: 'Voice AI can answer WhatsApp calls, either as the first to pick up or as a fallback when your team is unavailable.',
+      why: 'Many clients, especially outside the US, call on WhatsApp first.',
+      money: 'A missed call is often a missed client. This catches them.',
+      who: 'Businesses whose clients call on WhatsApp.',
+      path: 'Settings › WhatsApp › your number › Allow voice calls',
+      steps: ['Go to Settings › WhatsApp and open your number.', 'Turn on “Allow voice calls”.', 'See the help article for choosing whether Voice AI answers first or as a fallback.'],
+      links: [['Help article', HL + '155000009268']] },
+    { id: 'voice-versions', cat: 'voice', pri: 3, status: 'Labs', title: 'Versions and drafts for voice agents',
+      what: 'Draft and test changes to a voice agent, compare versions, then publish or roll back.',
+      why: 'You can improve a live phone agent without risking the calls it’s taking today.',
+      money: 'Avoid a bad edit costing you a day of calls.',
+      who: 'Anyone with a Voice AI agent answering real calls.',
+      path: 'Settings › Labs › Agent Versioning',
+      steps: ['Turn on Agent Versioning in Labs.', 'See the help article for drafting, testing and publishing versions.'],
+      links: [['Help article', HL + '155000009252']] },
+
+    // Ask AI
+    { id: 'ask-docs', cat: 'askai', pri: 2, title: 'Ask AI creates documents',
+      what: 'Ask AI can create, edit and review PDFs, Word documents, Excel files and presentations that follow your brand guidelines, check its own work, and produce recurring reports.',
+      why: 'Proposals, client reports and workbooks without leaving HighLevel.',
+      money: 'Hours back each week from proposals and reports, which you can spend on paid work.',
+      who: 'Consultants and coaches who send proposals, reports or client workbooks.',
+      steps: [SEE_ARTICLE],
+      links: [['Help article', HL + '155000009414']] },
+    { id: 'ask-projects', cat: 'askai', pri: 3, title: 'Project workspaces in Ask AI',
+      what: 'Group conversations, files, instructions and memory into separate projects, each with its own rules and brand voice.',
+      why: 'Ask AI keeps each client’s context apart, so you don’t repeat yourself.',
+      money: 'Faster, more consistent work for each client.',
+      who: 'Consultants and agencies working with several clients.',
+      path: 'Ask AI › Projects',
+      steps: ['Open Ask AI › Projects.', 'Create a project for each client and add their files and instructions.'],
+      links: [['Help article', 'https://help.gohighlevel.com/a/solutions/articles/155000009329']] },
+    { id: 'ask-dispatch', cat: 'askai', pri: 3, title: 'Call or text Ask AI',
+      what: 'Talk to Ask AI by phone call or text message, all in one shared thread. It can look up contacts or start workflows for you.',
+      why: 'You can run quick tasks from your phone between appointments.',
+      money: 'Respond to clients faster when you’re away from your desk.',
+      who: 'Owners who spend their days on the move.',
+      path: 'Ask AI › Dispatch › Connect Phone',
+      steps: ['Open Ask AI and go to the Dispatch tab.', 'Choose Connect Phone and verify your number.', 'Set a 6-digit PIN.'],
+      links: [['Help article', HL + '155000009351']] },
+    { id: 'ask-voice', cat: 'askai', pri: 3, title: 'Talk to Ask AI in the mobile app',
+      what: 'Have a spoken conversation with Ask AI in the HighLevel mobile app. It reads replies aloud and you can interrupt it. You can also dictate prompts.',
+      why: 'Hands-free answers when typing isn’t practical.',
+      money: 'Small time savings that add up over a busy week.',
+      who: 'Owners who use the HighLevel mobile app.',
+      path: 'HighLevel mobile app › Ask AI › microphone',
+      steps: ['Open Ask AI in the mobile app.', 'Tap the microphone to talk or dictate.'],
+      links: [['Help article', HL + '155000008022'], ['Changelog', 'https://ideas.gohighlevel.com/changelog/ask-ai-voice-mobile-app']] },
+
+    // Calendars & Meetings
+    { id: 'meeting-room', cat: 'meet', pri: 1, title: 'Meeting Room: video calls built in',
+      top: 'Sessions, recordings and AI notes in the same place as your clients.',
+      what: 'Video meetings inside HighLevel, connected to your calendars, with recordings, transcripts that show who said what, and AI summaries. Start instant meetings, use a personal room or add it to booking links.',
+      why: 'One less tool to pay for and manage, and every session is saved with the client.',
+      money: 'May let you drop a separate video subscription, and AI summaries mean no more writing up notes after each call.',
+      who: 'Coaches and consultants who run sessions or discovery calls.',
+      path: 'Memberships › Meeting Rooms',
+      steps: ['Open Memberships › Meeting Rooms.', 'In a calendar’s settings, choose Meeting Room as the meeting location.', 'Book a test meeting and check the recording, transcript and summary.'],
+      links: [['Help article', HL + '155000009149'], ['Video', 'https://youtu.be/kWQUzgCFYew']] },
+    { id: 'breakouts', cat: 'meet', pri: 2, title: 'Breakout rooms',
+      what: 'Split a Meeting Room call into up to 100 breakout groups, assigned by you or automatically, with recording and transcripts per room.',
+      why: 'Group sessions without moving to another video tool.',
+      money: 'Makes group coaching and workshops easier to run, which lets you serve more clients per hour.',
+      who: 'Group coaches, trainers and workshop hosts.',
+      path: 'Meeting Room › toolbar › Breakout Rooms',
+      steps: ['Start a Meeting Room call.', 'Choose Breakout Rooms in the toolbar and assign people.'],
+      links: [['Help article', HL + '155000009361']] },
+    { id: 'appt-status', cat: 'meet', pri: 3, status: 'Labs', title: 'Your own appointment statuses',
+      what: 'Add your own appointment labels within the main states (Pending, Active, Completed, Cancelled) without changing how calendars block time or send notifications.',
+      why: 'Track the stages that matter to you, like “Arrived” or “Paid”.',
+      money: 'Clearer follow-up on unpaid or incomplete sessions.',
+      who: 'Service businesses with several steps per appointment.',
+      path: 'Calendars › Calendar Settings › Preferences › Appointment status',
+      steps: ['Turn on “Custom Appointment Statuses” in Labs.', 'Go to Calendars › Calendar Settings › Preferences › Appointment status and add your labels.'],
+      links: [['Help article', 'https://help.gohighlevel.com/a/solutions/articles/155000009258']] },
+    { id: 'appt-products', cat: 'meet', pri: 3, title: 'Sell products during appointments',
+      what: 'Add retail products to a service appointment, with stock updated and the price adjustable per appointment.',
+      why: 'Products and services on one bill.',
+      money: 'Easy add-on sales at the moment a client is already paying.',
+      who: 'Salons, clinics, studios and anyone who sells products alongside services.',
+      path: 'Open an appointment › + Add product',
+      steps: ['Open an appointment.', 'Choose “+ Add product” and pick the item.'],
+      links: [['Help article', HL + '155000009280']] },
+    { id: 'qr-booking', cat: 'meet', pri: 3, title: 'QR codes that open your booking page',
+      what: 'Create QR codes for calendars, services and rentals that open the booking page, and see how many people scan them.',
+      why: 'Turn a flyer, business card or front-desk sign into a booking.',
+      money: 'More bookings from offline marketing, and you can see which piece worked.',
+      who: 'Local service businesses, event hosts and anyone using print.',
+      path: 'Calendars, Services or Rentals › QR Code',
+      steps: ['Open Calendars, Services or Rentals.', 'Use the QR Code option to create a code for that booking page.'],
+      links: [['Help article', HL + '155000009359']] },
+
+    // Client Portal, Courses & Communities
+    { id: 'portal-ai', cat: 'portal', pri: 2, title: 'Build your client portal by chatting',
+      what: 'Describe how your client portal should look and be organised, and AI updates the branding and navigation for web and mobile. Preview and publish from one place.',
+      why: 'A branded home for your clients’ materials, without hiring a designer.',
+      money: 'A polished client experience supports higher prices and better retention.',
+      who: 'Coaches and consultants who share courses, files or resources with clients.',
+      steps: [SEE_ARTICLE],
+      links: [['Help article', HL + '155000009116']] },
+    { id: 'portal-booking', cat: 'portal', pri: 2, title: 'Clients book sessions from the portal',
+      what: 'Clients can book, reschedule and cancel service appointments from inside your client portal.',
+      why: 'Fewer back-and-forth emails about scheduling.',
+      money: 'Easier rebooking keeps existing clients coming back.',
+      who: 'Anyone whose clients book repeat sessions.',
+      path: 'Calendars › Services › Booking Pages › Client Portal',
+      steps: ['Go to Calendars › Services › Booking Pages › Client Portal and turn on booking.', 'Go to Memberships › Client Portal › Settings › App Permissions and turn on Appointments.'],
+      links: [['Help article', HL + '155000009222']] },
+    { id: 'portal-discover', cat: 'portal', pri: 2, status: 'Labs', title: 'A storefront inside your portal',
+      what: 'Your client portal can include a Discover storefront where members browse, filter and buy your courses, offers and communities.',
+      why: 'Clients who already trust you see what else you offer.',
+      money: 'Sell more to the people you already serve.',
+      who: 'Coaches and creators with more than one programme or course.',
+      path: 'Client Portal › Settings › App permissions › Discover',
+      steps: ['Turn on “Discovery of Course and Offers” in Labs.', 'Go to Client Portal › Settings › App permissions and enable Discover.', 'On each offer’s Pricing tab, turn on “Show in Discover”.'],
+      links: [['Help article', HL + '155000009211']] },
+    { id: 'course-ai', cat: 'portal', pri: 2, status: 'Beta', title: 'Course AI writes your course',
+      what: 'Generate modules, lesson copy, quizzes and thumbnails from a prompt or material you upload, then refine it. It can also draft lesson descriptions and quizzes from your video transcripts.',
+      why: 'The slowest part of launching a course is writing it.',
+      money: 'Get a course to market faster, or turn workshops you already recorded into a product.',
+      who: 'Coaches, consultants and trainers.',
+      path: 'Courses › Create new › Start from scratch',
+      steps: ['Join the Course AI beta (see the help article).', 'Go to Courses › Create new › Start from scratch.', 'Describe the course or upload your material.'],
+      links: [['Help article', HL + '155000009163']] },
+    { id: 'course-analytics', cat: 'portal', pri: 3, status: 'Labs', title: 'Video analytics for courses',
+      what: 'See views, watch time, where viewers drop off and completion rates for your course videos, with AI summaries and suggestions.',
+      why: 'Find the lessons where students stop watching.',
+      money: 'Students who finish are more likely to buy your next programme.',
+      who: 'Anyone selling video courses.',
+      path: 'Courses › Analytics › Video analytics',
+      steps: ['Turn on Video analytics (courses-video-analytics) in Labs.', 'Go to Courses › Analytics › Video analytics.'],
+      links: [['Help article', HL + '155000009193']] },
+    { id: 'community-plans', cat: 'portal', pri: 2, title: 'Membership tiers for communities',
+      what: 'Offer several membership plans in one community, each bundling channels, paid events and courses, with different billing frequencies and currencies.',
+      why: 'Not every member wants the same level of access.',
+      money: 'A premium tier lets your most committed members pay more for more.',
+      who: 'Coaches and creators running a paid community.',
+      path: 'Community › Settings › Subscriptions › Add Plan',
+      steps: ['Open your community and go to Settings › Subscriptions.', 'Choose Add Plan and set what each tier includes.'],
+      links: [['Help article', HL + '155000009195']] },
+    { id: 'community-premium', cat: 'portal', pri: 3, title: 'Premium channels in communities',
+      what: 'Set private channels as visible, hidden, free on request, or paid.',
+      why: 'Show members what they could unlock.',
+      money: 'Sell access to premium channels on their own.',
+      who: 'Community owners with premium content.',
+      path: 'Community sidebar › private channel › Settings',
+      steps: ['Open the settings menu for a private channel in your community’s sidebar.', 'Choose how it appears and whether it’s free or paid.'],
+      links: [['Help article', HL + '155000009196']] },
+    { id: 'community-welcome', cat: 'portal', pri: 3, title: 'Automatic welcome and onboarding for communities',
+      what: 'Send new members a welcome message and up to five onboarding steps, shown as a “Get Started” checklist.',
+      why: 'New members know what to do on day one.',
+      money: 'Members who get started properly are more likely to stay subscribed.',
+      who: 'Community owners.',
+      path: 'Community › Welcome setup',
+      steps: ['Open your community’s welcome setup.', 'Write the welcome message and add up to five onboarding steps.'],
+      links: [['Help article', 'https://help.gohighlevel.com/a/solutions/articles/155000009475']] },
+    { id: 'coaching-industry', cat: 'portal', pri: 2, status: 'Private beta', title: 'HighLevel for business coaching',
+      what: 'An industry setup for coaches to sell programmes, run live sessions with recordings, give clients a member portal, and white-label it through SaaS mode.',
+      why: 'A setup designed around how coaching businesses run.',
+      money: 'Package and sell your programmes from one place, and potentially offer the platform to other coaches.',
+      who: 'Business coaches.',
+      steps: ['Request access through HighLevel’s private beta sign-up form.'],
+      links: [['Video', 'https://youtu.be/607yv8G-yRM'], ['Private beta sign-up', 'https://link.gohighlevel.com/widget/form/iYXmtATIZfvx7IzIMCY5']] },
+
+    // Email, Social & Ads
+    { id: 'spam-check', cat: 'marketing', pri: 2, title: 'Spam check before you send',
+      what: 'Checks your sender setup and email content for anything that could land it in spam, rates how serious each problem is, and suggests fixes.',
+      why: 'An email in the spam folder might as well not exist.',
+      money: 'More of your campaign emails reach the inbox, where people can act on them.',
+      who: 'Anyone sending email campaigns.',
+      steps: [SEE_ARTICLE],
+      links: [['Help article', HL + '155000009231']] },
+    { id: 'email-ai', cat: 'marketing', pri: 2, title: 'AI email writing, sequences and testing',
+      what: 'An AI editor that writes in your Brand Board style, creates multi-step email sequences, and makes variations to test on opens or clicks.',
+      why: 'A full nurture sequence in minutes instead of a weekend.',
+      money: 'Follow-up sequences turn more enquiries into sales, and testing finds the emails that work best.',
+      who: 'Coaches and consultants who sell through email.',
+      steps: [SEE_ARTICLE],
+      links: [['Help article', HL + '155000009290']] },
+    { id: 'inbox-preview', cat: 'marketing', pri: 3, title: 'See your email in Gmail, Outlook and Apple Mail',
+      what: 'Preview how an email looks in real email apps, side by side, before you send it.',
+      why: 'Catch broken layouts before clients do.',
+      money: 'Protects your brand on every send.',
+      who: 'Anyone sending designed emails.',
+      path: 'Email Builder › Inbox Preview',
+      steps: ['Open an email in the Email Builder.', 'Choose Inbox Preview.'],
+      links: [['Help article', HL + '155000009327']] },
+    { id: 'creator-studio', cat: 'marketing', pri: 2, status: 'Beta', title: 'Creator Studio for social posts, ads and flyers',
+      what: 'Create social posts, ads, flyers, images and videos from a text prompt, then edit them with drag and drop or by chatting.',
+      why: 'Marketing content without a separate design tool.',
+      money: 'Spend less time and money on content you post every week.',
+      who: 'Owners who make their own marketing.',
+      path: 'Agency Settings › Labs › Creator studio',
+      steps: ['At agency level, go to Settings › Labs.', 'Search for Creator studio and turn it on.'],
+      links: [['Video', 'https://youtu.be/D2ZhD5H2C9s']] },
+    { id: 'social-comments', cat: 'marketing', pri: 2, title: 'Social comments in your inbox',
+      what: 'Comments on your Social Planner posts arrive in the team inbox as conversations. New commenters become contacts, and you can reply publicly or move to a private message.',
+      why: 'No more missing comments across platforms.',
+      money: 'People who comment are showing interest. Now they’re in your CRM and you can follow up.',
+      who: 'Businesses that post on social media.',
+      path: 'Marketing › Social Planner › Settings › Comments',
+      steps: ['In Agency Settings, turn on Social Comments for the sub-account.', 'Go to Marketing › Social Planner › Settings › Comments.'],
+      links: [['Help article', HL + '155000009227']] },
+    { id: 'tiktok-leads', cat: 'marketing', pri: 3, title: 'TikTok lead ads',
+      what: 'Create and manage TikTok lead generation campaigns from HighLevel, sending leads to instant forms or TikTok messages.',
+      why: 'TikTok leads land straight in your CRM.',
+      money: 'A new lead source, with follow-up that starts right away.',
+      who: 'Businesses advertising on TikTok.',
+      path: 'Ad Manager › Campaigns › Create Campaign › TikTok',
+      steps: ['Go to Ad Manager › Settings › TikTok and connect your ad account.', 'Go to Ad Manager › Campaigns › Create Campaign and choose TikTok.'],
+      links: [['Help article', HL + '155000009244']] },
+    { id: 'meta-sync', cat: 'marketing', pri: 3, title: 'Two-way sync with Meta ads',
+      what: 'Bring your existing Facebook and Instagram campaigns into HighLevel and keep changes in sync both ways.',
+      why: 'See and adjust your Meta ads next to your leads.',
+      money: 'Easier to connect ad spend to the clients it brought in.',
+      who: 'Businesses running Facebook or Instagram ads.',
+      path: 'Ad Manager › Settings › Meta - Ad Account',
+      steps: ['For a new account, link your Meta ad account in Ad Manager.', 'For an existing one, go to Ad Manager › Settings › Meta - Ad Account and turn on Sync.'],
+      links: [['Help article', HL + '155000009234']] },
+
+    // Reputation
+    { id: 'reviews-ai', cat: 'reputation', pri: 1, title: 'Reviews AI that sounds like you',
+      top: 'Reply to every review fast, in your voice, with you approving the tricky ones.',
+      what: 'Tune the Reviews AI agent to your brand voice, set guardrails against risky wording, require your approval for sensitive reviews, and preview replies live.',
+      why: 'Replying to every review helps your reputation, but you can’t let an AI say the wrong thing to an unhappy client.',
+      money: 'A well-managed review profile is often what tips a new client into booking.',
+      who: 'Every local and service business.',
+      steps: [SEE_ARTICLE],
+      links: [['Help article', HL + '155000005156']] },
+    { id: 'rep-widgets', cat: 'reputation', pri: 3, title: 'Reputation widgets for your dashboard',
+      what: 'Sixteen dashboard widgets for review requests, sentiment and response rates.',
+      why: 'See how your reputation is trending at a glance.',
+      money: 'Spot a drop in reviews before it costs you bookings.',
+      who: 'Businesses that rely on reviews.',
+      path: 'Dashboard › widget library',
+      steps: ['Edit your dashboard and add widgets from the reputation section of the widget library.'],
+      links: [['Help article', HL + '155000009177']] },
+
+    // Websites, Funnels & Forms
+    { id: 'quiz', cat: 'sites', pri: 2, title: 'Quizzes on your pages',
+      what: 'A Quiz element for funnels and websites. Pick or build a quiz in a popup, with no embed code.',
+      why: '“Which package is right for you?” quizzes qualify and sort leads as they come in.',
+      money: 'Quiz leads arrive already segmented, so your follow-up can match what they need.',
+      who: 'Coaches and consultants with more than one offer.',
+      path: 'Funnel or Website Builder › Quiz element',
+      steps: ['Drag the Quiz element onto a funnel step or page.', 'Choose an existing quiz or build one in the popup.'],
+      links: [['Help article', 'https://gohighlevelassist.freshdesk.com/support/solutions/articles/155000009314']] },
+    { id: 'funnel-ai-chat', cat: 'sites', pri: 2, title: 'An AI chat agent that learns your funnel',
+      what: 'An element that scans your funnel to build a knowledge base, then puts an AI chat agent on the page.',
+      why: 'Visitors get answers on the page instead of leaving to email you.',
+      money: 'Questions answered at the moment of interest turn into more sign-ups.',
+      who: 'Anyone with a sales page or funnel.',
+      path: 'Funnel builder › Add Elements › AI And Chat Widget',
+      steps: ['Open your funnel in the builder.', 'Go to Add Elements › AI And Chat Widget.'],
+      links: [['Help article', HL + '155000009426']] },
+    { id: 'chat-video', cat: 'sites', pri: 3, title: 'Video avatar on your chat widget',
+      what: 'Replace the chat widget’s static prompt with a short looping video next to the chat button. Visitors can unmute, pause or minimise it.',
+      why: 'A face and a voice get more attention than a text bubble.',
+      money: 'More visitors start a conversation.',
+      who: 'Coaches and consultants whose personal brand sells.',
+      path: 'Sites › Chat Widget › Style › Appearances',
+      steps: ['Go to Sites › Chat Widget › Style.', 'Set widget placement to Sticky.', 'Under Appearances, turn on Video avatar.'],
+      links: [['Help article', HL + '155000002960']] },
+    { id: 'chat-insights', cat: 'sites', pri: 3, title: 'Chat widget insights',
+      what: 'An Insights tab showing how many visitors open your chat widget and become leads, with sentiment trends.',
+      why: 'Know whether your chat widget is actually bringing in leads.',
+      money: 'Fix what isn’t converting.',
+      who: 'Anyone using the chat widget.',
+      path: 'Sites › Chat Widget › Insights',
+      steps: ['Go to Sites › Chat Widget and open the Insights tab.'],
+      links: [['Help article', HL + '155000009226']] },
+    { id: 'order-forms', cat: 'sites', pri: 2, status: 'Labs', title: 'Redesigned order forms',
+      what: 'One order form element with one-step, two-step and new split layouts, more than 80 styling options, order bumps you can customise, and CRM custom fields.',
+      why: 'Checkout pages that look like your brand and ask what you need.',
+      money: 'A well-placed order bump raises the average sale.',
+      who: 'Anyone selling programmes or products through funnels.',
+      path: 'Agency Settings › Labs',
+      steps: ['In Agency Settings › Labs, turn on “Brand New Order Forms with New Layouts and Custom Fields”.', 'Add an Order Form element in the Funnel or Website Builder.'],
+      links: [['Help article', HL + '155000009109']] },
+    { id: 'auto-tax', cat: 'sites', pri: 3, title: 'Automatic tax on forms that sell',
+      what: 'Forms that sell products calculate tax from the customer’s address and include a billing address with “same as shipping”.',
+      why: 'No more working out tax by hand.',
+      money: 'Charge correctly the first time and avoid fixing invoices later.',
+      who: 'Businesses selling products or packages through forms.',
+      path: 'Form with Sell Products and Address elements',
+      steps: ['Use the Sell Products and Address elements on your form.', 'See the help article for tax settings.'],
+      links: [['Help article', HL + '155000009355']] },
+    { id: 'form-errors', cat: 'sites', pri: 3, title: 'Error checks for forms and surveys',
+      what: 'Forms, surveys and quizzes flag setup mistakes when you save, suggest fixes, and summarise logic, fields and notifications in an Insights tab.',
+      why: 'Find the broken form before a lead does.',
+      money: 'No more leads lost to a form that quietly fails.',
+      who: 'Anyone collecting leads with forms.',
+      path: 'Form builder › Recommendations and Insights tabs',
+      steps: ['Save your form in the builder.', 'Check the Recommendations and Insights tabs.'],
+      links: [['Help article', 'https://help.gohighlevel.com/a/solutions/articles/155000009459']] },
+
+    // Workflows & CRM
+    { id: 'workflow-maps', cat: 'workflows', pri: 1, title: 'Workflow Maps',
+      top: 'See every automation on one screen, and find the broken ones.',
+      what: 'One visual map of all your workflows and what connects them, such as tags, forms and fields. Trace a contact’s journey through your workflows over the last 60 days, see which workflows have recent errors, and ask the built-in AI assistant questions or have it propose changes for your approval.',
+      why: 'Most accounts have automations nobody remembers building. This shows what’s running and what’s failing.',
+      money: 'A broken follow-up workflow loses leads silently. This is how you find it.',
+      who: 'Anyone with more than a handful of workflows.',
+      plan: 'HighLevel lists Workflow Maps among the Founder plan’s features.',
+      path: 'Automation › Workflows › Workflow Maps',
+      steps: ['Go to Automation › Workflows › Workflow Maps.', 'Use the “Has issues” filter to find workflows with recent errors.', 'Open the Contacts tab to trace one contact’s journey.'],
+      links: [['Changelog', 'https://ideas.gohighlevel.com/changelog/introducing-the-all-new-workflow-maps-see-how-your-automations-connect'], ['Contact journeys', 'https://help.gohighlevel.com/en/support/solutions/articles/155000009497'], ['Video', 'https://youtu.be/6SpQK_KIGbY']] },
+    { id: 'ab-test', cat: 'workflows', pri: 2, title: 'A/B tests inside workflows',
+      what: 'Split contacts across up to 10 paths in a workflow, measure each against a goal, and send new contacts down the winning path.',
+      why: 'Stop guessing which follow-up works best.',
+      money: 'Every improvement in a follow-up path compounds across every future lead.',
+      who: 'Businesses with steady lead flow.',
+      path: 'Automation › Workflows › Add action › A/B Test',
+      steps: ['Open a workflow and add the A/B Test action.', 'Set up the paths and the goal to measure.'],
+      links: [['Help article', HL + '155000009305']] },
+    { id: 'search', cat: 'workflows', pri: 2, title: 'Search across all conversations',
+      what: 'Search your whole inbox, or a single conversation, for words, names or numbers, with matches highlighted.',
+      why: '“What did that client say about pricing?” takes seconds to find.',
+      money: 'Time back every day, and fewer dropped details.',
+      who: 'Everyone using the HighLevel inbox.',
+      path: 'Conversations › search icon',
+      steps: ['Use the search icon in Conversations to search everything.', 'Use the search icon in a conversation’s header to search just that thread.'],
+      links: [['Help article', HL + '155000009400']] },
+    { id: 'router', cat: 'workflows', pri: 3, title: 'Router action for workflows',
+      what: 'A workflow action that checks every branch in order, so one contact can go down several paths, unlike If/Else.',
+      why: 'Simpler workflows when a contact fits more than one rule.',
+      money: 'Fewer duplicate workflows to maintain.',
+      who: 'People who build their own workflows.',
+      path: 'Automation › Workflows › Router action',
+      steps: ['Open a workflow and add the Router action.'],
+      links: [['Help article', 'https://help.gohighlevel.com/en/support/solutions/articles/155000009512-router-action']] },
+    { id: 'sheets', cat: 'workflows', pri: 3, title: 'Start workflows from Google Sheets',
+      what: 'Four triggers that start a workflow when a spreadsheet or tab is created, or a row is added or updated.',
+      why: 'Lists you already keep in Sheets can feed your automations.',
+      money: 'Leads and orders tracked in a spreadsheet get followed up automatically.',
+      who: 'Businesses that still run part of their process in Google Sheets.',
+      path: 'Automation › Workflows › Add Trigger › Google Sheets',
+      steps: ['Open a workflow and add a trigger.', 'Choose Google Sheets and pick the trigger.'],
+      links: [['Help article', HL + '155000003294-google-sheets-']] },
+    { id: 'email-verify', cat: 'workflows', pri: 3, title: 'Check email addresses when importing contacts',
+      what: 'A checkbox on the last step of a contact import that verifies email addresses and catches invalid ones before you send.',
+      why: 'Bad addresses hurt your sending reputation.',
+      money: 'Protects the deliverability of every campaign after the import.',
+      who: 'Anyone importing lists.',
+      path: 'Contacts › Import Contacts › final step',
+      steps: ['Import contacts as usual.', 'On the final step, tick the email verification option.', 'Check progress under Bulk Actions.'],
+      links: [['Help article', HL + '155000009230']] },
+    { id: 'ticketing', cat: 'workflows', pri: 3, status: 'Private beta', title: 'Ticketing for client requests',
+      what: 'Turn client requests into trackable tickets with an owner, priority, status and response-time tracking.',
+      why: 'Client requests stop getting lost in inboxes.',
+      money: 'Better service keeps clients longer.',
+      who: 'Service businesses and consultants handling ongoing client requests.',
+      steps: ['Request access through HighLevel’s private beta sign-up form.'],
+      links: [['Video', 'https://youtu.be/iH_KQCpGhrk'], ['Private beta sign-up', 'https://link.gohighlevel.com/widget/form/iYXmtATIZfvx7IzIMCY5']] }
+  ];
+
+
+  var AFF = 'https://www.gohighlevel.com/?fp_ref=expansion30';
+  var LOGO = document.querySelector('.nav .logo').src;
+  var ICON = { ai: '🤖', voice: '📞', askai: '✨', meet: '🎥', portal: '🎓', marketing: '📣', reputation: '⭐', sites: '🧱', workflows: '⚙️' };
+  var catName = {}; CATS.forEach(function (c) { catName[c[0]] = c[1]; });
+  var byId = {}; U.forEach(function (u) { byId[u.id] = u; });
+
+  function el(tag, cls, text) { var n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; }
+  function ext(label, href, cls) { var a = el('a', cls || null, label); a.href = href; a.target = '_blank'; a.rel = 'noopener'; return a; }
+  function load(k, f) { try { var v = JSON.parse(localStorage.getItem(k)); return v == null ? f : v; } catch (e) { return f; } }
+  function store(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+  function isFounder(u) { return !!FOUNDER[u.id]; }
+  function stKey(u) { return u.status === 'Labs' ? 'labs' : (u.status ? 'beta' : 'live'); }
+  function oneLine(u) { return u.top || u.what.split('. ')[0].replace(/\.?$/, '.'); }
+  function tags(u, h) {
+    if (u.pri === 1) h.appendChild(el('span', 'tag p1', 'Do first'));
+    if (isFounder(u)) h.appendChild(el('span', 'tag f', 'Founder'));
+    if (u.status) h.appendChild(el('span', 'tag l', u.status));
+  }
+  document.querySelectorAll('.js-total').forEach(function (n) { n.textContent = U.length; });
+
+  /* ---------- Talks (session facts only; commentary is Expansion's) ---------- */
+  var TALKS = [
+    { s: 'HighLevel Leadership', t: 'Product Keynote: 300+ releases & the Founder vision', k: 1, d: 1, rel: ['workflow-maps', 'outbound', 'meeting-room', 'creator-studio'], why: 'The roadmap keynote. If you only follow one session, follow the updates it introduced, starting with the Founder plan and AI everywhere.' },
+    { s: 'Billy Gene', t: 'Marketing Tools, Culture & Hard Truths', k: 1, d: 1, rel: ['creator-studio', 'email-ai', 'ab-test'], why: 'New tools only pay off when you actually ship campaigns. Pair this one with the marketing updates you can launch this week.' },
+    { s: 'HighLevel Product Team', t: 'Founder Plan Launch, Industries & Platform Replacements', k: 0, d: 1, rel: ['coaching-industry', 'workflow-maps', 'ticketing'], why: 'Where the Founder plan and HighLevel Industries were explained. Read this before deciding whether to upgrade.' },
+    { s: 'Brittany Long', t: 'AI-Powered Smart Sales Pages & the Half-Human, Half-Cyborg Business', k: 0, d: 1, rel: ['funnel-ai-chat', 'quiz', 'order-forms', 'build-with-ai'], why: 'A small team plus AI can run a surprisingly big business. These page and AI updates are where to start.' },
+    { s: 'Gusten Sun', t: 'HighLevel Funnels, AI Systems & Scalable Digital Businesses', k: 0, d: 1, rel: ['funnel-ai-chat', 'quiz', 'order-forms', 'auto-tax'], why: 'Funnels are still the engine. The new funnel chat, quizzes and order forms make each page convert harder.' },
+    { s: 'Neil Patel', t: 'AI Agents, GEO & "Search Everywhere" Optimization', k: 1, d: 1, rel: ['reviews-ai', 'funnel-ai-chat', 'chat-insights'], why: 'People now find businesses through AI assistants as well as Google. Reviews, clear content and fast answers all help you get picked.' },
+    { s: 'Adley Kinsman', t: 'High-Retention Content, Viral Video Mechanics & Personality as Leverage', k: 1, d: 2, rel: ['creator-studio', 'social-comments', 'tiktok-leads'], why: 'Short video drives attention. Creator Studio and social comments in your inbox help you post more and respond faster.' },
+    { s: 'Ryan Deiss', t: 'Modern Marketing for the Trust Recession', k: 1, d: 2, rel: ['reviews-ai', 'email-ai', 'spam-check', 'community-welcome'], why: 'Buyers trust less and check more. Reviews, helpful email and a warm onboarding all build the trust that turns into sales.' },
+    { s: 'Dar Holdsworth', t: 'AI Adoption for Local Service Businesses', k: 0, d: 2, rel: ['voice-whatsapp', 'outbound', 'reactivation', 'qr-booking'], why: 'For local service businesses, missed calls are missed jobs. Voice AI and outbound agents close that gap.' },
+    { s: 'Hamza Baig', t: 'Scaling a Lean SaaS & Agency with AI Agents', k: 0, d: 2, rel: ['build-with-ai', 'agent-health', 'agent-waits', 'ask-projects'], why: 'Lean teams scale by handing repeat work to agents. Start with agents you can build by describing them.' },
+    { s: 'Danny Clarke', t: 'Scaling a HighLevel SaaS: Simplicity, Growth Loops & the 4-Hour Workday', k: 0, d: 2, rel: ['workflow-maps', 'router', 'search'], why: 'Simple systems are easier to sell and support. Workflow Maps helps you keep your automations simple and visible.' },
+    { s: 'Gary Vaynerchuk', t: 'Navigating Technological Disruption', k: 1, d: 3, rel: ['creator-studio', 'social-comments', 'meta-sync'], why: 'When tools change fast, your brand is what lasts. Use the new content tools to show up more often.' },
+    { s: 'Chris Finlayson (OpenAI)', t: 'Proactive AI Agents, Voice, ChatGPT Ads & HighLevel', k: 1, d: 3, rel: ['outbound', 'agent-waits', 'voice-whatsapp', 'ask-dispatch'], why: 'AI is moving from answering to acting. Outbound and managed agents are HighLevel’s version of that shift.' },
+    { s: 'Leon Bubenicek', t: 'The RADAR Framework for Entrepreneurial Growth', k: 0, d: 3, rel: ['rep-widgets', 'chat-insights', 'course-analytics'], why: 'A growth framework is only as good as the numbers behind it. These reporting updates give you better data.' },
+    { s: 'Daymond John', t: 'Entrepreneurship, Investing & Live Selling', k: 1, d: 3, rel: ['appt-products', 'order-forms', 'meeting-room'], why: 'Selling live works. Meeting Room and selling products during appointments let you do it inside HighLevel.' },
+    { s: 'James Dumoulin', t: 'Personal Brand Building & Media Monetization', k: 1, d: 3, rel: ['creator-studio', 'community-plans', 'community-premium'], why: 'Attention is worth more when you have something to sell. Paid community tiers turn followers into members.' },
+    { s: 'Whitney Bonds', t: 'Starting YouTube Scared & Growing to 230K', k: 0, rel: ['creator-studio', 'course-ai'], why: 'Consistency beats polish on YouTube. Use AI to cut the time each video and course takes.' },
+    { s: 'Andrew George', t: 'From Agency to SaaS to Vibe-Coded "Wrappers"', k: 0, rel: ['portal-ai', 'build-with-ai', 'flow-builder'], why: 'Building custom apps is getting easier. The AI portal builder is a quick way to offer something branded.' },
+    { s: 'Robb Bailey', t: 'The "Goldilocks Zone" of Solo SaaS', k: 0, rel: ['workflow-maps', 'ticketing', 'search'], why: 'Running SaaS solo means support has to be tight. Ticketing and conversation search keep it manageable.' },
+    { s: 'Jonah Cockshaw', t: 'Launch a HighLevel SaaS on Easy Mode', k: 0, rel: ['workflow-maps', 'portal-ai', 'order-forms'], why: 'If you’re thinking about selling HighLevel under your brand, these are the building blocks to launch with.' },
+    { s: 'Russ Ward', t: 'Stop Selling SaaS. Start Selling Outcomes.', k: 0, rel: ['reactivation', 'outbound', 'reviews-ai'], why: 'Clients buy results, not software. Win-back campaigns and outbound agents produce results you can point to.' },
+    { s: 'Andy Audate', t: '100 SaaS Customers in 12 Months with Automated Webinars', k: 0, rel: ['meeting-room', 'email-ai', 'ab-test'], why: 'Automated webinars sell while you sleep. Meeting Room and AI email sequences cover the event and the follow-up.' },
+    { s: 'Dakota Routh', t: 'The 9-Step Deal-Closing Framework', k: 0, rel: ['meeting-room', 'appt-products', 'order-forms'], why: 'A repeatable close needs a smooth call and an easy way to pay. These updates cover both.' },
+    { s: 'Atena Pegler', t: 'AI That Executes: Leads, Funnels, Sales and Content', k: 0, rel: ['build-with-ai', 'funnel-ai-chat', 'email-ai', 'creator-studio'], why: 'Knowing about AI isn’t the same as using it. Pick one of these and set it up this week.' },
+    { s: 'Cassiopeia Meekins', t: '30 Days of Social Content with HighLevel Ask AI', k: 0, rel: ['ask-docs', 'creator-studio', 'social-comments'], why: 'Ask AI and Creator Studio can draft a month of posts so you never start from a blank page.' },
+    { s: 'Trent Shelton', t: 'Live a Legendary Life', k: 1, rel: ['ask-dispatch', 'agent-waits', 'workflow-maps'], why: 'The point of automation is time back for your life. These updates hand off the work that keeps you at your desk.' },
+    { s: 'Anik Singal', t: 'Virality Is a System: 2 Billion Views', k: 0, rel: ['creator-studio', 'tiktok-leads', 'social-comments'], why: 'Treat content like a system and let AI do the heavy lifting. Creator Studio is the place to start.' },
+    { s: 'Kaitlyn Lemus Portillo', t: 'From Hollywood to HighLevel: The Art of Reinventing Yourself', k: 0, rel: ['course-ai', 'portal-ai', 'community-plans'], why: 'Reinventing yourself often means packaging what you know. Course AI and the portal builder make that faster.' }
+  ];
+  var DAYS = { 1: 'Oct 27', 2: 'Oct 28', 3: 'Oct 29' };
+  function initials(n) { return n.replace(/\(.*?\)/g, '').trim().split(/\s+/).map(function (w) { return w[0]; }).slice(0, 2).join('').toUpperCase(); }
+  var PHOTO_ALIAS = { 'gary-vaynerchuk': 'gary-vee' };
+  function avatar(t) {
+    var slug = t.s.replace(/\(.*?\)/g, '').trim().toLowerCase().replace(/[^a-z]+/g, '-');
+    slug = PHOTO_ALIAS[slug] || slug;
+    if (/^highlevel/.test(slug)) { var h = el('span', 'av hl'), hi = el('img'); hi.src = 'speakers/highlevel.svg'; hi.alt = 'HighLevel'; h.appendChild(hi); return h; }
+    var a = el('span', 'av ph'), img = el('img'); img.src = 'speakers/' + slug + '.jpg'; img.alt = ''; img.loading = 'lazy';
+    img.onerror = function () { a.className = 'av'; a.textContent = initials(t.s); };
+    a.appendChild(img); return a;
+  }
+  function talkMeta(t) { return (t.k ? 'Keynote' : 'Breakout') + (t.d ? ' · Day ' + t.d : ''); }
+
+  var talkFilter = 'all';
+  var TF = [['all', 'All', TALKS.length], ['k', '🎤 Keynotes', TALKS.filter(function (t) { return t.k; }).length], ['b', '🧩 Breakouts', TALKS.filter(function (t) { return !t.k; }).length], ['d1', 'Day 1 · Oct 27'], ['d2', 'Day 2 · Oct 28'], ['d3', 'Day 3 · Oct 29']];
+  var tfBox = document.getElementById('talk-filters');
+  TF.forEach(function (f) {
+    var b = el('button', 'chip', f[1]); b.type = 'button'; b.dataset.f = f[0]; b.setAttribute('aria-pressed', f[0] === 'all');
+    if (f[2] != null) b.appendChild(el('span', 'n', '· ' + f[2]));
+    b.onclick = function () { talkFilter = f[0]; tfBox.querySelectorAll('.chip').forEach(function (c) { c.setAttribute('aria-pressed', c === b); }); renderTalks(); };
+    tfBox.appendChild(b);
+  });
+  function renderTalks() {
+    var g = document.getElementById('talk-grid'); g.textContent = '';
+    TALKS.forEach(function (t, i) {
+      if (talkFilter === 'k' && !t.k) return; if (talkFilter === 'b' && t.k) return;
+      if (talkFilter[0] === 'd' && String(t.d) !== talkFilter[1]) return;
+      var c = el('button', 'talk' + (t.k ? ' key' : '')); c.type = 'button';
+      var top = el('div', 'top'); top.appendChild(avatar(t));
+      var m = el('div'); m.appendChild(el('div', 'meta', talkMeta(t))); m.appendChild(el('div', 'spk', t.s)); top.appendChild(m);
+      c.appendChild(top); c.appendChild(el('h3', null, t.t)); c.appendChild(el('p', 'why', t.why)); c.appendChild(el('span', 'go', 'See what to do →'));
+      c.onclick = function () { openTalk(i); };
+      g.appendChild(c);
+    });
+  }
+  var dlg = document.getElementById('talk-dlg');
+  function openTalk(i) {
+    var t = TALKS[i]; dlg.textContent = '';
+    var h = el('div', 'dlg-head dark-fx');
+    var x = el('button', 'dlg-x', '×'); x.type = 'button'; x.setAttribute('aria-label', 'Close'); x.onclick = function () { dlg.close(); }; h.appendChild(x);
+    var top = el('div', 'top'); top.appendChild(avatar(t));
+    var m = el('div'); m.appendChild(el('div', 'meta', talkMeta(t) + (t.d ? ' · ' + DAYS[t.d] : ''))); m.appendChild(el('div', 'spk', t.s)); top.appendChild(m); h.appendChild(top);
+    var ti = el('h3', null, t.t); ti.id = 'dlg-title'; h.appendChild(ti); dlg.appendChild(h);
+    var b = el('div', 'dlg-body');
+    var w = el('div'); w.appendChild(el('h4', null, 'Why it matters for you')); w.appendChild(el('p', null, t.why)); b.appendChild(w);
+    var r = el('div'); r.appendChild(el('h4', null, 'Updates to act on'));
+    var list = el('div', 'ind-list'); list.style.marginTop = '0';
+    t.rel.forEach(function (id) { var u = byId[id]; if (u) list.appendChild(miniCard(u)); });
+    r.appendChild(list); b.appendChild(r);
+    var first = byId[t.rel[0]];
+    if (first) { var a = el('div', 'action-box'); a.appendChild(el('h4', null, 'One thing to do this week')); a.appendChild(el('p', null, first.steps[0] + ' (' + first.title + ')')); b.appendChild(a); }
+    var go = el('a', 'btn btn-primary', 'Get my personalized plan →'); go.href = '#quiz'; go.onclick = function () { dlg.close(); }; b.appendChild(go);
+    dlg.appendChild(b); dlg.showModal();
+  }
+  dlg.addEventListener('click', function (e) { if (e.target === dlg) dlg.close(); });
+  function miniCard(u) {
+    var c = el('div', 'mini'); var h = el('h4'); h.appendChild(document.createTextNode(ICON[u.cat] + ' ' + u.title + ' ')); tags(u, h); c.appendChild(h);
+    c.appendChild(el('p', null, u.what)); c.appendChild(el('p', 'money', u.money)); return c;
+  }
+
+  /* ---------- Industries ---------- */
+  var INDS = [
+    { id: 'service', ic: '🔧', name: 'Home & local services', blurb: 'For trades, clinics, salons and any business that lives on the phone and the calendar. Answer every call, book faster, follow up automatically and earn more reviews.', pick: function (u) { return (AUD[u.id] || []).indexOf('service') > -1 || ['outbound', 'reactivation', 'voice-whatsapp', 'reviews-ai', 'ask-dispatch', 'time-aware'].indexOf(u.id) > -1; } },
+    { id: 'coach', ic: '🧭', name: 'Coaches & consultants', blurb: 'Run sessions, portals and programs in one place. Meeting Room, client portals and HighLevel’s business coaching setup replace a stack of separate tools.', pick: function (u) { return (AUD[u.id] || []).indexOf('coach') > -1; } },
+    { id: 'creator', ic: '🎓', name: 'Course & community creators', blurb: 'Write courses with AI, sell membership tiers and welcome every new member automatically.', pick: function (u) { return (AUD[u.id] || []).indexOf('creator') > -1 || u.id === 'creator-studio'; } },
+    { id: 'ai', ic: '🤖', name: 'AI agents & voice', blurb: 'Agents that start conversations, answer calls, follow up and fix themselves. The biggest theme of LevelUp 2026.', pick: function (u) { return u.cat === 'ai' || u.cat === 'voice'; } },
+    { id: 'agency', ic: '🏢', name: 'Agencies & SaaS', blurb: 'See every automation, test what works and support clients at scale. Plus the Founder plan tools for selling HighLevel as your own.', pick: function (u) { return isFounder(u) || ['ab-test', 'search', 'router', 'ticketing', 'agent-health', 'portal-ai', 'email-verify'].indexOf(u.id) > -1; } }
+  ];
+  var tabs = document.getElementById('ind-tabs'), panel = document.getElementById('ind-panel');
+  function showInd(i) {
+    tabs.querySelectorAll('.ind-tab').forEach(function (t, j) { t.setAttribute('aria-selected', i === j); t.tabIndex = i === j ? 0 : -1; });
+    var d = INDS[i]; panel.textContent = '';
+    var h = el('h3'); h.appendChild(el('span', null, d.ic)); h.appendChild(document.createTextNode(d.name)); panel.appendChild(h);
+    panel.appendChild(el('p', null, d.blurb));
+    var list = el('div', 'ind-list');
+    U.filter(d.pick).sort(function (a, b) { return a.pri - b.pri; }).slice(0, 6).forEach(function (u) { list.appendChild(miniCard(u)); });
+    panel.appendChild(list);
+  }
+  INDS.forEach(function (d, i) {
+    var t = el('button', 'ind-tab'); t.type = 'button'; t.setAttribute('role', 'tab');
+    t.appendChild(el('span', 'ic', d.ic)); t.appendChild(document.createTextNode(d.name));
+    t.onclick = function () { showInd(i); };
+    t.onkeydown = function (e) { if (e.key === 'ArrowDown' || e.key === 'ArrowRight' || e.key === 'ArrowUp' || e.key === 'ArrowLeft') { e.preventDefault(); var n = (i + (e.key === 'ArrowDown' || e.key === 'ArrowRight' ? 1 : -1) + INDS.length) % INDS.length; showInd(n); tabs.children[n].focus(); } };
+    tabs.appendChild(t);
+  });
+  showInd(0);
+
+  /* ---------- Updates explorer ---------- */
+  var upState = { cat: 'all', flag: null, q: '', limit: 12 };
+  var catBox = document.getElementById('cat-chips'), flagBox = document.getElementById('flag-chips');
+  [['all', 'All', U.length]].concat(CATS.map(function (c) { return [c[0], ICON[c[0]] + ' ' + c[1], U.filter(function (u) { return u.cat === c[0]; }).length]; })).forEach(function (c) {
+    var b = el('button', 'chip', c[1]); b.type = 'button'; b.setAttribute('aria-pressed', c[0] === 'all'); b.appendChild(el('span', 'n', '· ' + c[2]));
+    b.onclick = function () { upState.cat = c[0]; upState.limit = 12; catBox.querySelectorAll('.chip').forEach(function (x) { x.setAttribute('aria-pressed', x === b); }); renderUps(); };
+    catBox.appendChild(b);
+  });
+  [['p1', '🔥 Do first'], ['founder', '👑 Founder plan'], ['live', '✅ Ready to use'], ['labs', '🧪 Turn on in Labs'], ['beta', 'β Beta']].forEach(function (f) {
+    var b = el('button', 'chip' + (f[0] === 'founder' ? ' gold' : ''), f[1]); b.type = 'button'; b.setAttribute('aria-pressed', 'false');
+    b.onclick = function () { upState.flag = upState.flag === f[0] ? null : f[0]; upState.limit = 12; flagBox.querySelectorAll('.chip').forEach(function (x) { x.setAttribute('aria-pressed', x === b && upState.flag === f[0]); }); renderUps(); };
+    flagBox.appendChild(b);
+  });
+  var searchIn = document.getElementById('up-search');
+  searchIn.addEventListener('input', function () { upState.q = searchIn.value.trim().toLowerCase(); upState.limit = 12; renderUps(); });
+  function upMatch(u) {
+    if (upState.cat !== 'all' && u.cat !== upState.cat) return false;
+    var f = upState.flag;
+    if (f === 'p1' && u.pri !== 1) return false; if (f === 'founder' && !isFounder(u)) return false;
+    if ((f === 'live' || f === 'labs' || f === 'beta') && stKey(u) !== f) return false;
+    if (upState.q) { var hay = [u.title, u.what, u.why, u.money, u.who, catName[u.cat]].join(' ').toLowerCase(); if (hay.indexOf(upState.q) < 0) return false; }
+    return true;
+  }
+  function upCard(u) {
+    var d = el('details', 'up'); var s = el('summary');
+    s.appendChild(el('span', 'ic', ICON[u.cat]));
+    var mid = el('div'); mid.appendChild(el('div', 'cat', catName[u.cat]));
+    var h = el('h3'); h.appendChild(document.createTextNode(u.title)); tags(u, h); mid.appendChild(h);
+    mid.appendChild(el('p', 'one', oneLine(u))); s.appendChild(mid); s.appendChild(el('span', 'chev', '⌄'));
+    d.appendChild(s);
+    var b = el('div', 'body');
+    function part(t, txt) { var w = el('div'); w.appendChild(el('h4', null, t)); w.appendChild(el('p', null, txt)); b.appendChild(w); }
+    part('What it is', u.what); part('Why it matters', u.why);
+    var mb = el('div', 'moneybox'); mb.appendChild(el('h4', null, '💰 The money angle')); mb.appendChild(el('p', null, u.money)); b.appendChild(mb);
+    if (u.who) part('Best for', u.who);
+    if (u.path) { var p = el('div'); p.appendChild(el('h4', null, 'Where to find it')); p.appendChild(el('span', 'path', u.path)); b.appendChild(p); }
+    if (u.steps && u.steps.length) { var st = el('div'); st.appendChild(el('h4', null, 'Set it up')); var ol = el('ol'); u.steps.forEach(function (x) { ol.appendChild(el('li', null, x)); }); st.appendChild(ol); b.appendChild(st); }
+    if (u.links && u.links.length) { var l = el('div', 'links'); u.links.forEach(function (x) { l.appendChild(ext(x[0] + ' ↗', x[1], 'btn btn-outline btn-sm')); }); b.appendChild(l); }
+    d.appendChild(b); return d;
+  }
+  function renderUps() {
+    var list = document.getElementById('up-list'), more = document.getElementById('up-more');
+    var items = U.filter(upMatch).sort(function (a, b) { return a.pri - b.pri; });
+    list.textContent = '';
+    items.slice(0, upState.limit).forEach(function (u) { list.appendChild(upCard(u)); });
+    document.getElementById('up-count').textContent = items.length + (items.length === 1 ? ' update' : ' updates');
+    if (!items.length) list.appendChild(el('p', 'fine', 'No updates match. Try another word or clear a filter.'));
+    var rest = items.length - upState.limit;
+    more.hidden = rest <= 0; more.textContent = 'Show more (' + rest + ')';
+  }
+  document.getElementById('up-more').onclick = function () { upState.limit += 24; renderUps(); };
+  renderUps();
+
+  /* ---------- Hero stats + ticker ---------- */
+  var STATS = [[TALKS.length, 'talks covered'], [U.length, 'updates explained'], [U.filter(function (u) { return u.pri === 1; }).length, '“do first” picks', 1], [INDS.length, 'business playbooks']];
+  var sb = document.getElementById('stats');
+  STATS.forEach(function (s) { var d = el('div', 'stat'); var n = el('strong', s[2] ? 'g' : null, '0'); n.dataset.to = s[0]; d.appendChild(n); d.appendChild(el('span', null, s[1])); sb.appendChild(d); });
+  function countUp() {
+    var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+    sb.querySelectorAll('strong').forEach(function (n) {
+      var to = +n.dataset.to; if (reduce) { n.textContent = to; return; }
+      var t0 = null; function step(t) { if (!t0) t0 = t; var p = Math.min(1, (t - t0) / 1100); n.textContent = Math.round(to * (1 - Math.pow(1 - p, 3))); if (p < 1) requestAnimationFrame(step); } requestAnimationFrame(step);
+    });
+  }
+  if ('IntersectionObserver' in window) { var io = new IntersectionObserver(function (e) { if (e[0].isIntersecting) { countUp(); io.disconnect(); } }); io.observe(sb); } else countUp();
+  var tk = document.getElementById('ticker');
+  [0, 1].forEach(function (rep) { U.slice().sort(function (a, b) { return a.pri - b.pri; }).slice(0, 22).forEach(function (u) { var s = el('span', rep ? 'dup' : null); if (rep) s.setAttribute('aria-hidden', 'true'); s.appendChild(el('b', null, '✦')); s.appendChild(document.createTextNode(catName[u.cat] + ': ' + u.title)); tk.appendChild(s); }); });
+
+  /* ---------- Quiz ---------- */
+  var Q = [
+    { id: 'role', q: 'What best describes you?', o: [
+      ['service', '🔧', 'Service business owner', 'Trades, clinics, salons, local services'],
+      ['coach', '🧭', 'Coach or consultant', '1:1 or group clients'],
+      ['creator', '🎓', 'Course or community creator', 'Digital products and memberships'],
+      ['agency', '🏢', 'Agency or SaaS owner', 'You run HighLevel for clients'],
+      ['new', '🌱', 'Not on HighLevel yet', 'Exploring what it can do']] },
+    { id: 'plan', q: 'Which HighLevel plan are you on?', o: [
+      ['starter', '1️⃣', 'Starter'], ['unlimited', '♾️', 'Unlimited'], ['founder', '👑', 'Founder ($497)', 'Including accounts moving over from the $497 tier'], ['unsure', '🤷', 'Not sure / not on HighLevel']] },
+    { id: 'goal', q: 'What’s your #1 goal for the next 90 days?', o: [
+      ['leads', '🎯', 'Get more leads'], ['convert', '🤝', 'Turn more leads into paying clients'], ['time', '⏱️', 'Get hours back from admin'], ['deliver', '💎', 'Deliver a better client experience'], ['rep', '⭐', 'Grow reviews and reputation']] },
+    { id: 'leak', q: 'Where do leads slip through the cracks?', o: [
+      ['calls', '📞', 'Missed calls'], ['slow', '🐢', 'Slow replies to new enquiries'], ['old', '🗂️', 'Old leads nobody follows up with'], ['noshow', '📅', 'No-shows and booking back-and-forth'], ['unsure', '🔍', 'Not sure, and that’s the problem']] },
+    { id: 'deliver', q: 'How do you deliver your work?', o: [
+      ['sessions', '🎥', '1:1 calls or sessions'], ['groups', '👥', 'Group programs, courses or community'], ['onsite', '🚐', 'On-site jobs or appointments'], ['dfy', '🛠️', 'Done-for-you services'], ['products', '🛒', 'Selling products or packages']] },
+    { id: 'team', q: 'How big is your team?', o: [
+      ['solo', '🙋', 'Just me'], ['small', '👫', '2–5 people'], ['mid', '🏬', '6–20 people'], ['large', '🏙️', '20+ people']] },
+    { id: 'areas', q: 'Which areas do you want to improve?', hint: 'Pick as many as you like.', multi: true, o: CATS.map(function (c) { return [c[0], ICON[c[0]], c[1], c[2]]; }) },
+    { id: 'pace', q: 'How hands-on do you want to be?', o: [
+      ['ready', '✅', 'Ready-to-use features only', 'Nothing in Labs or beta'], ['labs', '🧪', 'Happy to switch things on in Labs'], ['all', '🚀', 'Give me everything, betas included']] }
+  ];
+  var BOOST = {
+    goal: { leads: ['marketing', 'sites'], convert: ['ai', 'voice', 'sites'], time: ['workflows', 'askai', 'ai'], deliver: ['portal', 'meet'], rep: ['reputation', 'marketing'] },
+    leak: { calls: ['voice-whatsapp', 'ask-dispatch', 'outbound'], slow: ['outbound', 'funnel-ai-chat', 'build-with-ai', 'time-aware'], old: ['reactivation', 'email-ai', 'ab-test'], noshow: ['qr-booking', 'appt-status', 'portal-booking', 'time-aware'], unsure: ['workflow-maps', 'chat-insights', 'search'] },
+    deliver: { sessions: ['meet', 'portal-booking'], groups: ['portal', 'breakouts'], onsite: ['qr-booking', 'appt-products', 'ask-dispatch', 'appt-status'], dfy: ['workflows', 'askai'], products: ['order-forms', 'auto-tax', 'appt-products', 'portal-discover'] }
+  };
+  var qs = load('exp-lu26-quiz', null) || { i: 0, a: {} };
+  var box = document.getElementById('quiz-box'), rep = document.getElementById('report');
+
+  function score(a) {
+    return U.map(function (u) {
+      var s = { 1: 30, 2: 18, 3: 8 }[u.pri], why = [];
+      var aud = AUD[u.id];
+      if (a.role === 'service' || a.role === 'coach' || a.role === 'creator') {
+        if (aud && aud.indexOf(a.role) > -1) { s += 25; why.push('built for your business'); } else if (aud) s -= 10;
+      }
+      if (a.role === 'agency' && (isFounder(u) || u.cat === 'workflows' || u.id === 'agent-health')) { s += 20; why.push('agency essential'); }
+      ['goal', 'leak', 'deliver'].forEach(function (k) { var list = (BOOST[k][a[k]] || []); if (list.indexOf(u.cat) > -1 || list.indexOf(u.id) > -1) { s += list.indexOf(u.id) > -1 ? 22 : 14; why.push(k === 'goal' ? 'matches your goal' : k === 'leak' ? 'plugs your lead leak' : 'fits how you deliver'); } });
+      if ((a.areas || []).indexOf(u.cat) > -1) { s += 12; why.push('an area you picked'); }
+      if (a.team === 'solo' && (u.cat === 'askai' || u.cat === 'ai')) s += 6;
+      if ((a.team === 'mid' || a.team === 'large') && (u.cat === 'workflows' || u.id === 'search' || u.id === 'ticketing')) s += 8;
+      var k2 = stKey(u);
+      if (a.pace === 'ready') { if (k2 === 'labs') s -= 18; if (k2 === 'beta') s -= 26; }
+      if (a.pace === 'labs' && k2 === 'beta') s -= 10;
+      var needsF = isFounder(u) && a.plan !== 'founder';
+      return { u: u, s: s, why: why.filter(function (w, i, arr) { return arr.indexOf(w) === i; }), needsF: needsF };
+    }).sort(function (x, y) { return y.s - x.s; });
+  }
+  function save() { store('exp-lu26-quiz', qs); }
+  function renderQuiz() {
+    box.textContent = '';
+    if (qs.i >= Q.length) return renderDetails();
+    var q = Q[qs.i];
+    var bar = el('div', 'qbar'); bar.appendChild(el('span', null, (qs.i + 1) + ' / ' + Q.length)); var tr = el('div', 'qtrack'); var fill = el('i'); tr.appendChild(fill); bar.appendChild(tr); box.appendChild(bar);
+    requestAnimationFrame(function () { fill.style.width = ((qs.i + 1) / (Q.length + 1) * 100) + '%'; });
+    var h = el('h3', null, q.q); h.tabIndex = -1; box.appendChild(h); box.appendChild(el('p', 'hint', q.hint || 'Choose one.'));
+    var opts = el('div', 'opts'); opts.setAttribute('role', 'group'); opts.setAttribute('aria-label', q.q);
+    var cur = qs.a[q.id];
+    q.o.forEach(function (o) {
+      var b = el('button', 'opt'); b.type = 'button';
+      var on = q.multi ? (cur || []).indexOf(o[0]) > -1 : cur === o[0]; b.setAttribute('aria-pressed', on);
+      b.appendChild(el('span', 'e', o[1])); var t = el('span', null, o[2]); if (o[3]) t.appendChild(el('small', null, o[3])); b.appendChild(t);
+      b.onclick = function () {
+        if (q.multi) { var arr = (qs.a[q.id] || []).slice(); var ix = arr.indexOf(o[0]); if (ix > -1) arr.splice(ix, 1); else arr.push(o[0]); qs.a[q.id] = arr; b.setAttribute('aria-pressed', ix < 0); next.disabled = !arr.length; save(); }
+        else { qs.a[q.id] = o[0]; qs.i++; save(); renderQuiz(); focusQ(); }
+      };
+      opts.appendChild(b);
+    });
+    box.appendChild(opts);
+    var nav = el('div', 'qnav'); var back = el('button', 'linkbtn', '← Back'); back.type = 'button'; back.disabled = qs.i === 0;
+    back.onclick = function () { qs.i--; save(); renderQuiz(); focusQ(); }; nav.appendChild(back);
+    var next = el('button', 'btn btn-primary', 'Next →'); next.type = 'button';
+    if (q.multi) { next.disabled = !(cur && cur.length); next.onclick = function () { qs.i++; save(); renderQuiz(); focusQ(); }; nav.appendChild(next); }
+    box.appendChild(nav);
+  }
+  function focusQ() { var h = box.querySelector('h3'); if (h) h.focus({ preventScroll: true }); }
+  function renderDetails() {
+    var bar = el('div', 'qbar'); bar.appendChild(el('span', null, 'Last step')); var tr = el('div', 'qtrack'); var fill = el('i'); fill.style.width = '100%'; tr.appendChild(fill); bar.appendChild(tr); box.appendChild(bar);
+    var h = el('h3', null, 'Who should we make this report for?'); h.tabIndex = -1; box.appendChild(h);
+    box.appendChild(el('p', 'hint', 'Your name goes on the report. Nothing is sent anywhere.'));
+    var f = el('form');
+    [['name', 'First name', 'given-name'], ['biz', 'Business name (optional)', 'organization']].forEach(function (x) {
+      var w = el('div', 'field'); var l = el('label', null, x[1]); l.htmlFor = 'f-' + x[0]; var i = el('input'); i.id = 'f-' + x[0]; i.name = x[0]; i.autocomplete = x[2]; i.value = qs[x[0]] || ''; if (x[0] === 'name') i.required = true;
+      w.appendChild(l); w.appendChild(i); f.appendChild(w);
+    });
+    var nav = el('div', 'qnav'); var back = el('button', 'linkbtn', '← Back'); back.type = 'button'; back.onclick = function () { qs.i = Q.length - 1; save(); renderQuiz(); };
+    var go = el('button', 'btn btn-gold', 'Build my report →'); go.type = 'submit'; nav.appendChild(back); nav.appendChild(go); f.appendChild(nav);
+    f.onsubmit = function (e) { e.preventDefault(); qs.name = f.elements.name.value.trim(); qs.biz = f.elements.biz.value.trim(); qs.done = true; save(); renderReport(true); };
+    box.appendChild(f);
+  }
+  var LABEL = {}; Q.forEach(function (q) { LABEL[q.id] = {}; q.o.forEach(function (o) { LABEL[q.id][o[0]] = o[2]; }); });
+  function renderReport(scroll) {
+    var a = qs.a, ranked = score(a), top = ranked.filter(function (r) { return r.s > 20; });
+    var picks = top.slice(0, 12), week = [], seen = {};
+    picks.forEach(function (r) { if (week.length < 3 && !seen[r.u.cat]) { seen[r.u.cat] = 1; week.push(r); } });
+    picks.forEach(function (r) { if (week.length < 3 && week.indexOf(r) < 0) week.push(r); });
+    var later = picks.filter(function (r) { return week.indexOf(r) < 0; });
+    var hours = Math.round(picks.reduce(function (n, r) { return n + ({ 1: 3, 2: 2, 3: 1 }[r.u.pri]); }, 0));
+    rep.textContent = ''; rep.hidden = false;
+    box.textContent = '';
+    var done = el('div'); done.appendChild(el('h3', null, '✅ Your report is ready' + (qs.name ? ', ' + qs.name : ''))); done.firstChild.style.margin = '0';
+    done.appendChild(el('p', 'hint', 'Scroll down to read it, copy it into your notes, or retake the quiz any time. It stays saved in this browser.')); done.lastChild.style.margin = '6px 0 0';
+    box.appendChild(done);
+
+    var head = el('div', 'rep-head dark-fx'); var lg = el('img', 'logo'); lg.src = LOGO; lg.alt = 'Expansion'; head.appendChild(lg);
+    head.appendChild(el('h3', null, (qs.name ? qs.name + '’s' : 'Your') + ' LevelUp 2026 action plan'));
+    head.appendChild(el('p', null, 'For ' + (qs.biz ? qs.biz + ', a ' : 'a ') + (LABEL.role[a.role] || 'business').toLowerCase() + ' focused on “' + (LABEL.goal[a.goal] || '').toLowerCase() + '”. We scored all ' + U.length + ' updates against your answers. Here’s what to do, in order.'));
+    var rs = el('div', 'rep-stats');
+    [[picks.length, 'updates that fit you'], [week.length, 'to set up this week'], ['~' + hours + 'h', 'estimated setup time'], [U.length - picks.length, 'you can safely skip']].forEach(function (s) { var d = el('div'); d.appendChild(el('strong', null, String(s[0]))); d.appendChild(el('span', null, s[1])); rs.appendChild(d); });
+    head.appendChild(rs);
+    var ra = el('div', 'rep-actions');
+    var planText = [(qs.name ? qs.name + '’s' : 'My') + ' LevelUp 2026 action plan (Expansion Software & Services)', '', 'DO THESE 3 THIS WEEK']
+      .concat(week.map(function (r, i) { return (i + 1) + '. ' + r.u.title + ' — ' + r.u.money + (r.u.steps ? '\n   ' + r.u.steps.slice(0, 3).join('\n   ') : ''); }))
+      .concat(['', 'NEXT 30 DAYS']).concat(later.map(function (r) { return '• ' + r.u.title; })).join('\n');
+    var pr = el('button', 'btn btn-gold', 'Copy my plan'); pr.type = 'button'; pr.id = 'copy-plan';
+    var fb = el('textarea'); fb.id = 'plan-text'; fb.readOnly = true; fb.value = planText; fb.hidden = true; fb.setAttribute('aria-label', 'Your plan as text');
+    fb.style.cssText = 'width:100%;min-height:180px;margin-top:14px;border-radius:10px;padding:12px;font:13px/1.5 ui-monospace,Menlo,monospace;background:rgba(255,255,255,.06);color:#fff;border:1px solid rgba(255,255,255,.2);position:relative;z-index:1';
+    pr.onclick = function () {
+      function fallback() { fb.hidden = false; fb.focus(); fb.select(); pr.textContent = 'Select all and copy'; }
+      try { navigator.clipboard.writeText(planText).then(function () { pr.textContent = 'Copied ✓'; setTimeout(function () { pr.textContent = 'Copy my plan'; }, 2000); }, fallback); } catch (e) { fallback(); }
+    };
+    ra.appendChild(pr);
+    var re = el('button', 'btn btn-ghost', 'Retake quiz'); re.type = 'button'; re.onclick = function () { qs = { i: 0, a: {}, name: qs.name, biz: qs.biz }; save(); rep.hidden = true; renderQuiz(); document.getElementById('quiz').scrollIntoView(); }; ra.appendChild(re);
+    head.appendChild(ra); head.appendChild(fb); rep.appendChild(head);
+
+    if (week.length) {
+      var s1 = el('div', 'rep-sec'); s1.appendChild(el('h3', null, '🔥 Do these 3 this week')); s1.appendChild(el('p', null, 'The highest-impact updates for your answers, with the first steps to take.'));
+      var wg = el('div', 'week');
+      week.forEach(function (r, i) {
+        var c = el('div', 'wk'); c.appendChild(el('div', 'n', 'Step ' + (i + 1) + ' · ' + catName[r.u.cat]));
+        var h = el('h4'); h.appendChild(document.createTextNode(r.u.title + ' ')); tags(r.u, h); c.appendChild(h);
+        if (r.why.length) c.appendChild(el('div', 'match', '✓ ' + r.why.slice(0, 2).join(' · ')));
+        c.appendChild(el('p', null, r.u.money));
+        if (r.u.steps) { var ol = el('ol'); r.u.steps.slice(0, 3).forEach(function (x) { ol.appendChild(el('li', null, x)); }); c.appendChild(ol); }
+        if (r.needsF) c.appendChild(el('p', 'fine', '👑 Needs the Founder plan.'));
+        if (r.u.links && r.u.links[0]) { var l = ext(r.u.links[0][0] + ' ↗', r.u.links[0][1]); l.style.cssText = 'display:inline-block;margin-top:10px;font-weight:700;font-size:.9rem'; c.appendChild(l); }
+        wg.appendChild(c);
+      });
+      s1.appendChild(wg); rep.appendChild(s1);
+    }
+    if (later.length) {
+      var s2 = el('div', 'rep-sec'); s2.appendChild(el('h3', null, '📅 Next 30 days')); s2.appendChild(el('p', null, 'Work through these once the first three are live.'));
+      var lg2 = el('div', 'ind-list'); lg2.style.marginTop = '0';
+      later.forEach(function (r) { var c = miniCard(r.u); if (r.why.length) { var m = el('div', 'match', '✓ ' + r.why.slice(0, 2).join(' · ')); m.style.marginTop = '6px'; c.appendChild(m); } if (r.needsF) c.appendChild(el('p', 'fine', '👑 Needs the Founder plan.')); lg2.appendChild(c); });
+      s2.appendChild(lg2); rep.appendChild(s2);
+    }
+    var rel = TALKS.map(function (t) { return { t: t, n: t.rel.filter(function (id) { return picks.some(function (r) { return r.u.id === id; }); }).length }; }).filter(function (x) { return x.n; }).sort(function (x, y) { return y.n - x.n; }).slice(0, 3);
+    if (rel.length) {
+      var s3 = el('div', 'rep-sec'); s3.appendChild(el('h3', null, '🎤 Sessions worth your time')); s3.appendChild(el('p', null, 'The LevelUp talks that connect most to your plan.'));
+      var tg = el('div', 'talks');
+      rel.forEach(function (x) { var i = TALKS.indexOf(x.t); var c = el('button', 'talk' + (x.t.k ? ' key' : '')); c.type = 'button'; var top = el('div', 'top'); top.appendChild(avatar(x.t)); var m = el('div'); m.appendChild(el('div', 'meta', talkMeta(x.t))); m.appendChild(el('div', 'spk', x.t.s)); top.appendChild(m); c.appendChild(top); c.appendChild(el('h3', null, x.t.t)); c.appendChild(el('span', 'go', 'See what to do →')); c.onclick = function () { openTalk(i); }; tg.appendChild(c); });
+      s3.appendChild(tg); rep.appendChild(s3);
+    }
+    var fCount = picks.filter(function (r) { return r.needsF; }).length;
+    if (a.plan !== 'founder' && (fCount || a.role === 'agency')) {
+      var fn = el('div', 'founder-note'); var t = el('div');
+      t.appendChild(el('h4', null, '👑 The Founder plan may be worth a look'));
+      t.appendChild(el('p', null, (fCount ? fCount + (fCount === 1 ? ' of your picks needs' : ' of your picks need') + ' the Founder plan. ' : '') + 'It adds Workflow Maps, HighLevel Industries, SaaS plans and rebilling, according to HighLevel.'));
+      fn.appendChild(t); fn.appendChild(ext('Upgrade through Expansion', AFF, 'btn btn-primary no-print')); rep.appendChild(fn);
+    } else if (a.plan === 'unsure' && a.role === 'new') {
+      var fn2 = el('div', 'founder-note'); var t2 = el('div'); t2.appendChild(el('h4', null, '🌱 New to HighLevel?')); t2.appendChild(el('p', null, 'Start a HighLevel account through Expansion and use this plan as your setup checklist.')); fn2.appendChild(t2); fn2.appendChild(ext('Start with HighLevel', AFF, 'btn btn-primary no-print')); rep.appendChild(fn2);
+    }
+    var foot = el('p', 'fine', 'Prepared by Expansion Software & Services from HighLevel’s LevelUp 2026 release notes. Rankings are Expansion’s opinion. Check each help article before you rely on a detail.'); foot.style.marginTop = '24px'; rep.appendChild(foot);
+    document.getElementById('nav-report').href = '#report';
+    if (scroll) rep.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+  if (qs.done && qs.i >= Q.length) renderReport(false); else renderQuiz();
+
+  renderTalks();
+})();
+</script>
+
+
+</body></html>
